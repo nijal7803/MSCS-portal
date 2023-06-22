@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user login</title>
+    <link rel="stylesheet" href="userlogin.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body class="bg">
+
+    <section class="section">
+        <form name="Form1" method="post" action="./MobileLogin.aspx" id="Form1">
+            <div>
+            <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="KXVFW69bJNepKt7wuSYXRd6zlcXzHYsDKuXmtgFZvdydcBsIktF5nbZ/ehywv22PA/qrwJ0Bxe8l+ehZSyU/x9FOl1v9DirPvaZwgDXVmEmkjGA7L+ESpbl5xzGMZ4omruG6YDCQsNC0JYBguh1hCQIQNdyeY9dmQTQbkN9sa3v6HMBjBSvVavwU+aLg2biqkN2f+xyfACwtI/amjQeTng==" />
+            </div>
+            
+            <div>
+            
+                <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="B1ADE801" />
+                <input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+                <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="0gESiF76Sm3O8Abl/+85MtcYZthJEJqfhtRocFTYPIFeQX5gYCPBz/B6K5ppawG0u1oe2bsuKufzlkb3d6sdLUEpIc1PrUrFLzqY/kcAc74W70CHGtqSr0/YgdMIpat9" />
+            </div>
+                    <div class="login">
+                        <input type="hidden" name="BC" />
+                        <h1>
+                            <img id="Image3" src="../images/UserLogin.gif" /></h1>
+            
+                        
+            <div class="details">
+                        <input type="hidden" autocomplete="on" class="input" name="R1" value="5527" />
+            
+            
+                        <p>
+                            Mobile/Email Id : 
+                                 
+                                      <input type="text" class="input" placeholder="Please Enter Mobile/Email" name="T1" id="Email" />
+                            <img id="Image1" src="../images/User.jpg" />
+                        </p>
+                        <p style="margin-left: 30px;">
+                            Password &nbsp;&nbsp;:
+                                  
+                                      <input type="password" class="input" placeholder="Please Enter Password" name="T2" id="Passwd" />&nbsp;&nbsp;<img id="Image2" src="../images/Password.jpg"  />
+                        </p>
+
+
+                            <div class="txt">
+                            <!-------------------------C A P T C H A------------------------------------------------->
+                            Please enter the characters shown in the image.
+                  <p class="CAPTCHA_text">
+                      <img id="imgCaptcha" src="../images/AlphanumericCode.aspx" alt="CAPTCHA Image" />
+                
+            
+                      &nbsp;
+                      <input name="txtCaptcha" type="text" id="txtCaptcha" class="txtboxCustom" autocomplete="off" />
+            
+                  </p>
+                            <!-------------------------C A P T C H A------------------------------------------------->
+                        </div>
+            
+            
+                        <span id="ErrorLabel"></span>
+            
+            
+                        <span id="ErrorLbl2"></span><br />
+                        <input type="submit" class="button" value="Sign in" onclick="ok();" /><p>&nbsp;</p>
+                        <hr />
+                        <table>
+                            <tr>
+                                <td colspan="2">
+                                    <a id="HyperLink1" href="../forget passward/forgetpassward.html">Forgot Password</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="BankDetailEntry.aspx">
+                                    <img id="Image4" src="../images/RegisterNew.png" /></a>  </td>
+                                <td><span style="float: right;"><a href="../index.html">
+                                    <img id="Image5" src="../images/home.png" /></a> </span></td>
+                            </tr>
+                        </table>
+            
+                        <br />
+            
+            
+                    </div>
+                </div>
+                </form>
+    </section>
+    
+</body>
+</html>

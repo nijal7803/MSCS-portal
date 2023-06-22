@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reminder Message</title>
+        <link rel="stylesheet" href="Reminder message.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+
+<!----------------------------------------------------------------------------------->
+<!--                                   Header                                      -->
+<!----------------------------------------------------------------------------------->
+
+<header class="header" id="Home">
+
+    <div class="sub-box">
+        <div class="image">
+            <img src="../images/satyamev jayte logo.png" alt="">
+        </div>
+
+        <div class="text">
+            <h2>MULTI-STATE CO-OPERATIVE SOCIETIES</h2>
+            <h4>Ministry of Cooperation, Govt. of India</h4>
+        </div>
+
+        <div class="logo">
+            <img src="../images/MSCS_LOGO.png" alt="">
+        </div>
+    </div>
+
+</header>
+
+<div class="nav">
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="#">Chart</a>
+            <ul>
+                <li><a href="../state wise/state wise.html">State-Wise</a></li>
+                <li><a href="../year wise/year wise.html">Year-Wise</a></li>
+                <li><a href="../type wise/type wise.html">Type-Wise</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Reg.Societies</a>
+            <ul>
+                <li><a href="../state wise result/state wise result.html">State-Wise List</a></li>
+                <li><a href="../files/ALL_REG_MSCS.pdf">All Reg.Societies(pdf)</a></li>
+                <li><a href="../files/OldListMSCS.pdf">Societies Registered Before 1986</a></li>
+                <li><a href="../Calender Year-Wise List/Calender Year-Wise List.html">Calender Year-Wise List</a></li>
+                <li><a href="../Financial Year-Wise List/Financial Year-Wise List.html">Financial Year-Wise List</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Forms</a>
+            <ul>
+                <li><a href="../FORM - I/form1.html">Form I</a></li>
+                <li><a href="../FORM - II/form 2.html">Form II</a></li>
+                <li><a href="../FORM - III/form3.html">Form III</a></li>
+                <li><a href="../FORM - IV/form4.html">Form IV</a></li>
+                <li><a href="../FORM - V/form5.html">Form V</a></li>
+            </ul>
+        </li>
+        <li><a href="#">MSCS Act</a>
+            <ul>
+                <li><a href="../files/GuidelineAct2002.pdf">MSCS Act,2002</a></li>
+                <li><a href="../files/Rules2002.pdf">MSCS Rules,2002</a></li>
+                <li><a href="../check list/checklist.html">CheckList</a></li>
+                <li><a href="../Model Bye-laws/Model Bye-laws.html">Model Bye-Laws</a></li>
+                <li><a href="../files/NatPolicy02.pdf">National Policy on Cooperative,2002</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Applications</a>
+            <ul>
+                <li><a href="../received application/received application.html">Received Application</a></li>
+                <li><a href="../status of application/status of application.html">Status of Application</a></li>
+            </ul>
+        </li>
+        <li><a href="#">MSCS-MIS</a>
+            <ul>
+                <li><a href="../New User Registratioin form/new registration.html">New User Registration</a></li>
+                <li><a href="../user login/userlogin.html">User Login</a></li>
+                <li><a href="../login page/loginpage.html">Admin User</a></li>
+        </ul>
+        </li>
+        <li><a href="#">Reports</a>
+            <ul>
+                <li><a href="../Registered User/Registered User.html">Registered Users</a></li>
+                <li><a href="../Filed Annual Returns online/Filed Annual Returns.html">Filed Annual Returns Online</a></li>
+                <li><a href="../Annual Returns  Offline/Annual Returns  Offline.html">Annual Returns Ofline</a></li>
+                <li><a href="../Reminder Message/Reminder message.html">Reminder Message</a></li>
+                <li><a href="../All Reg Societies/index.html">All Reg Societies</a></li>
+
+            </ul>
+        </li>
+        <li><a href="#">Liquidation</a>
+            <ul>
+                <li><a href="../societies under liquidation/societies under liquidation.html">Socialities Under Liquidation</a></li>
+                <li><a href="../LiquidationInitiated.pdf">Liquidation Process Initiated</a></li>
+            </ul>
+        </li>
+        <li><a href="../banks/banks.html">Banks</a></li>
+    </ul>
+
+</div>
+
+<!----------------------------------------------------------------------------------->
+<!--                                   content                                      -->
+<!----------------------------------------------------------------------------------->
+
+    <section class="section">
+
+<div id="site_content">
+       
+
+    <table>
+        <tr>
+            <td>
+                <span id="Label1">Alert Message sent to societies for Non filing of Annual Returns</span>
+                &nbsp;:
+                <span id="Count1">9755</span>
+            </td>
+            <td  id="Label2">
+                <span>Year : </span>
+                &nbsp;<select name="DdlYear" id="DdlYear" class="DDListCSS">
+	<option selected="selected" value="0"> All Year </option>
+	<option value="2019-20">2019-20</option>
+	<option value="2018-19">2018-19</option>
+	<option value="2017-18">2017-18</option>
+
+</select>
+                &nbsp;</td>
+            
+            <td id="Label3">
+                <span>Date : </span>
+                &nbsp;<select name="DdlDate"  id="DdlDate" class="DDListCSS">
+	<option value="0">All Date </option>
+	<option selected="selected" value="0">All Date </option>
+	<option value="31 Aug 2021">31 Aug 2021</option>
+	<option value="28 Feb 2022">28 Feb 2022</option>
+	<option value="21 Dec 2021">21 Dec 2021</option>
+	<option value="20 Oct 2021">20 Oct 2021</option>
+	<option value="17 Aug 2021">17 Aug 2021</option>
+	<option value="09 Nov 2021">09 Nov 2021</option>
+	<option value="07 Jan 2022">07 Jan 2022</option>
+	<option value="06 Oct 2021">06 Oct 2021</option>
+	<option value="06 Dec 2021">06 Dec 2021</option>
+	<option value="01 Feb 2022">01 Feb 2022</option>
+	<option value="01 Dec 2021">01 Dec 2021</option>
+
+</select>
+    </td>
+
+            
+        </tr>
+
+        <tr>
+            <td colspan="3">
+                <div>
+	<table class="mGrid" cellspacing="0" rules="all" id="GridView1">
+		<tr>
+			<th scope="col">S No</th><th scope="col">Name</th><th scope="col">Reg No</th><th scope="col">State/UT</th><th scope="col">Year</th><th scope="col">Message Date</th>
+		</tr><tr >
+			<td class="s_no">
+                                1
+                            </td><td>20th century foc staff coop credit society ltd, </td><td>&nbsp;</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">09 Nov 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                2
+                            </td><td>20th century foc staff coop credit society ltd, </td><td>&nbsp;</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">30 Mar 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                3
+                            </td><td>20th century foc staff coop credit society ltd, </td><td>&nbsp;</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">30 Mar 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                4
+                            </td><td>20th century foc staff coop credit society ltd, </td><td>&nbsp;</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">28 Feb 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                5
+                            </td><td>20th century foc staff coop credit society ltd, </td><td>&nbsp;</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">07 Jan 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                6
+                            </td><td>20th century foc staff coop credit society ltd, </td><td>&nbsp;</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">21 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                7
+                            </td><td>20th century foc staff coop credit society ltd, </td><td>&nbsp;</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">21 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                8
+                            </td><td>20th century foc staff coop credit society ltd, </td><td>&nbsp;</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">06 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                9
+                            </td><td>Aadi Credit Cooperative Society Ltd., </td><td>MSCS/CR/746/2013</td><td class="state">NEW DELHI</td><td class="year">2019-20</td><td class="date">30 Mar 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                10
+                            </td><td>Aadi Credit Cooperative Society Ltd., </td><td>MSCS/CR/746/2013</td><td class="state">NEW DELHI</td><td class="year">2019-20</td><td class="date">30 Mar 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                11
+                            </td><td>Aadi Credit Cooperative Society Ltd., </td><td>MSCS/CR/746/2013</td><td class="state">NEW DELHI</td><td class="year">2019-20</td><td class="date">07 Jan 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                12
+                            </td><td>Aadi Credit Cooperative Society Ltd., </td><td>MSCS/CR/746/2013</td><td class="state">NEW DELHI</td><td class="year">2019-20</td><td class="date">28 Feb 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                13
+                            </td><td>Aadi Credit Cooperative Society Ltd., </td><td>MSCS/CR/746/2013</td><td class="state">NEW DELHI</td><td class="year">2019-20</td><td class="date">21 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                14
+                            </td><td>Aadi Credit Cooperative Society Ltd., </td><td>MSCS/CR/746/2013</td><td class="state">NEW DELHI</td><td class="year">2019-20</td><td class="date">21 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                15
+                            </td><td>Aadi Credit Cooperative Society Ltd., </td><td>MSCS/CR/746/2013</td><td class="state">NEW DELHI</td><td class="year">2019-20</td><td class="date">06 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                16
+                            </td><td>Aadi Credit Cooperative Society Ltd., </td><td>MSCS/CR/746/2013</td><td class="state">NEW DELHI</td><td class="year">2019-20</td><td class="date">31 Aug 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                17
+                            </td><td>Aarambh Agro Purpose Cooperative Society ltd.,</td><td>MSCS/CR/1024/2014</td><td class="state">UTTAR PRADESH                                     </td><td class="year">2019-20</td><td class="date">31 Aug 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                18
+                            </td><td>Aarambh Agro Purpose Cooperative Society ltd.,</td><td>MSCS/CR/1024/2014</td><td class="state">UTTAR PRADESH                                     </td><td class="year">2019-20</td><td class="date">06 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                19
+                            </td><td>Aarambh Agro Purpose Cooperative Society ltd.,</td><td>MSCS/CR/1024/2014</td><td class="state">UTTAR PRADESH                                     </td><td class="year">2019-20</td><td class="date">21 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                20
+                            </td><td>Aarambh Agro Purpose Cooperative Society ltd.,</td><td>MSCS/CR/1024/2014</td><td class="state">UTTAR PRADESH                                     </td><td class="year">2019-20</td><td class="date">21 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                21
+                            </td><td>Aarambh Agro Purpose Cooperative Society ltd.,</td><td>MSCS/CR/1024/2014</td><td class="state">UTTAR PRADESH                                     </td><td class="year">2019-20</td><td class="date">28 Feb 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                22
+                            </td><td>Aarambh Agro Purpose Cooperative Society ltd.,</td><td>MSCS/CR/1024/2014</td><td class="state">UTTAR PRADESH                                     </td><td class="year">2019-20</td><td class="date">07 Jan 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                23
+                            </td><td>Aarambh Agro Purpose Cooperative Society ltd.,</td><td>MSCS/CR/1024/2014</td><td class="state">UTTAR PRADESH                                     </td><td class="year">2019-20</td><td class="date">30 Mar 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                24
+                            </td><td>Aarambh Agro Purpose Cooperative Society ltd.,</td><td>MSCS/CR/1024/2014</td><td class="state">UTTAR PRADESH                                     </td><td class="year">2019-20</td><td class="date">30 Mar 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                25
+                            </td><td>Aarvee Multipurpose Cooperative Society Ltd., </td><td>MSCS/CR/866/2013</td><td class="state">WEST BENGAL                                       </td><td class="year">2019-20</td><td class="date">30 Mar 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                26
+                            </td><td>Aarvee Multipurpose Cooperative Society Ltd., </td><td>MSCS/CR/866/2013</td><td class="state">WEST BENGAL                                       </td><td class="year">2019-20</td><td class="date">30 Mar 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                27
+                            </td><td>Aarvee Multipurpose Cooperative Society Ltd., </td><td>MSCS/CR/866/2013</td><td class="state">WEST BENGAL                                       </td><td class="year">2019-20</td><td class="date">07 Jan 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                28
+                            </td><td>Aarvee Multipurpose Cooperative Society Ltd., </td><td>MSCS/CR/866/2013</td><td class="state">WEST BENGAL                                       </td><td class="year">2019-20</td><td class="date">28 Feb 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                29
+                            </td><td>Aarvee Multipurpose Cooperative Society Ltd., </td><td>MSCS/CR/866/2013</td><td class="state">WEST BENGAL                                       </td><td class="year">2019-20</td><td class="date">21 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                30
+                            </td><td>Aarvee Multipurpose Cooperative Society Ltd., </td><td>MSCS/CR/866/2013</td><td class="state">WEST BENGAL                                       </td><td class="year">2019-20</td><td class="date">21 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                31
+                            </td><td>Aarvee Multipurpose Cooperative Society Ltd., </td><td>MSCS/CR/866/2013</td><td class="state">WEST BENGAL                                       </td><td class="year">2019-20</td><td class="date">06 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                32
+                            </td><td>Aarvee Multipurpose Cooperative Society Ltd., </td><td>MSCS/CR/866/2013</td><td class="state">WEST BENGAL                                       </td><td class="year">2019-20</td><td class="date">31 Aug 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                33
+                            </td><td>Aavishkaar Agricultural Cooperative Society ltd.,</td><td>MSCS/CR/1017/2014</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">06 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                34
+                            </td><td>Aavishkaar Agricultural Cooperative Society ltd.,</td><td>MSCS/CR/1017/2014</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">21 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                35
+                            </td><td>Aavishkaar Agricultural Cooperative Society ltd.,</td><td>MSCS/CR/1017/2014</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">21 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                36
+                            </td><td>Aavishkaar Agricultural Cooperative Society ltd.,</td><td>MSCS/CR/1017/2014</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">30 Mar 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                37
+                            </td><td>Aavishkaar Agricultural Cooperative Society ltd.,</td><td>MSCS/CR/1017/2014</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">30 Mar 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                38
+                            </td><td>Aavishkaar Agricultural Cooperative Society ltd.,</td><td>MSCS/CR/1017/2014</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">07 Jan 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                39
+                            </td><td>Aavishkaar Agricultural Cooperative Society ltd.,</td><td>MSCS/CR/1017/2014</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">28 Feb 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                40
+                            </td><td>Aavishkaar Agricultural Cooperative Society ltd.,</td><td>MSCS/CR/1017/2014</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">31 Aug 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                41
+                            </td><td>Abasaheb Multi State Multi Purpose Coop. Society ltd., </td><td>MSCS/CR/510/2012</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">01 Feb 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                42
+                            </td><td>Abasaheb Multi State Multi Purpose Coop. Society ltd., </td><td>MSCS/CR/510/2012</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">28 Feb 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                43
+                            </td><td>Abasaheb Multi State Multi Purpose Coop. Society ltd., </td><td>MSCS/CR/510/2012</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">07 Jan 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                44
+                            </td><td>Abasaheb Multi State Multi Purpose Coop. Society ltd., </td><td>MSCS/CR/510/2012</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">30 Mar 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                45
+                            </td><td>Abasaheb Multi State Multi Purpose Coop. Society ltd., </td><td>MSCS/CR/510/2012</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">30 Mar 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                46
+                            </td><td>Abasaheb Multi State Multi Purpose Coop. Society ltd., </td><td>MSCS/CR/510/2012</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">21 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                47
+                            </td><td>Abasaheb Multi State Multi Purpose Coop. Society ltd., </td><td>MSCS/CR/510/2012</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">21 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                48
+                            </td><td>Abasaheb Multi State Multi Purpose Coop. Society ltd., </td><td>MSCS/CR/510/2012</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">06 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                49
+                            </td><td>Abasaheb Multi State Multi Purpose Coop. Society ltd., </td><td>MSCS/CR/510/2012</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">31 Aug 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                50
+                            </td><td>Abhiman Multi State Cooperative Group Housing Society Ltd.,</td><td>MSCS/CR/1220/2015</td><td class="state">NEW DELHI</td><td class="year">2019-20</td><td class="date">30 Mar 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                51
+                            </td><td>Abhiman Multi State Cooperative Group Housing Society Ltd.,</td><td>MSCS/CR/1220/2015</td><td class="state">NEW DELHI</td><td class="year">2019-20</td><td class="date">30 Mar 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                52
+                            </td><td>Abhiman Multi State Cooperative Group Housing Society Ltd.,</td><td>MSCS/CR/1220/2015</td><td class="state">NEW DELHI</td><td class="year">2019-20</td><td class="date">28 Feb 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                53
+                            </td><td>Abhiman Multi State Cooperative Group Housing Society Ltd.,</td><td>MSCS/CR/1220/2015</td><td class="state">NEW DELHI</td><td class="year">2019-20</td><td class="date">01 Feb 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                54
+                            </td><td>Abhiman Multi State Cooperative Group Housing Society Ltd.,</td><td>MSCS/CR/1220/2015</td><td class="state">NEW DELHI</td><td class="year">2019-20</td><td class="date">07 Jan 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                55
+                            </td><td>Abhiman Multi State Cooperative Group Housing Society Ltd.,</td><td>MSCS/CR/1220/2015</td><td class="state">NEW DELHI</td><td class="year">2019-20</td><td class="date">21 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                56
+                            </td><td>Abhiman Multi State Cooperative Group Housing Society Ltd.,</td><td>MSCS/CR/1220/2015</td><td class="state">NEW DELHI</td><td class="year">2019-20</td><td class="date">21 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                57
+                            </td><td>Abhiman Multi State Cooperative Group Housing Society Ltd.,</td><td>MSCS/CR/1220/2015</td><td class="state">NEW DELHI</td><td class="year">2019-20</td><td class="date">06 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                58
+                            </td><td>Abhiman Multi State Cooperative Group Housing Society Ltd.,</td><td>MSCS/CR/1220/2015</td><td class="state">NEW DELHI</td><td class="year">2019-20</td><td class="date">31 Aug 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                59
+                            </td><td>Abhinav Urban Multistate Multipurpose Coop. Society ltd., </td><td>MSCS/CR/925/2014</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">31 Aug 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                60
+                            </td><td>Abhinav Urban Multistate Multipurpose Coop. Society ltd., </td><td>MSCS/CR/925/2014</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">06 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                61
+                            </td><td>Abhinav Urban Multistate Multipurpose Coop. Society ltd., </td><td>MSCS/CR/925/2014</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">21 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                62
+                            </td><td>Abhinav Urban Multistate Multipurpose Coop. Society ltd., </td><td>MSCS/CR/925/2014</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">21 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                63
+                            </td><td>Abhinav Urban Multistate Multipurpose Coop. Society ltd., </td><td>MSCS/CR/925/2014</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">30 Mar 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                64
+                            </td><td>Abhinav Urban Multistate Multipurpose Coop. Society ltd., </td><td>MSCS/CR/925/2014</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">30 Mar 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                65
+                            </td><td>Abhinav Urban Multistate Multipurpose Coop. Society ltd., </td><td>MSCS/CR/925/2014</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">28 Feb 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                66
+                            </td><td>Abhinav Urban Multistate Multipurpose Coop. Society ltd., </td><td>MSCS/CR/925/2014</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">07 Jan 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                67
+                            </td><td>Abhinavoday Housing Multi State Cooperative Society Ltd </td><td>MSCS/CR/1159/2014</td><td class="state">GUJARAT                                           </td><td class="year">2019-20</td><td class="date">31 Aug 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                68
+                            </td><td>Abhinavoday Housing Multi State Cooperative Society Ltd </td><td>MSCS/CR/1159/2014</td><td class="state">GUJARAT                                           </td><td class="year">2019-20</td><td class="date">06 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                69
+                            </td><td>Abhinavoday Housing Multi State Cooperative Society Ltd </td><td>MSCS/CR/1159/2014</td><td class="state">GUJARAT                                           </td><td class="year">2019-20</td><td class="date">21 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                70
+                            </td><td>Abhinavoday Housing Multi State Cooperative Society Ltd </td><td>MSCS/CR/1159/2014</td><td class="state">GUJARAT                                           </td><td class="year">2019-20</td><td class="date">21 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                71
+                            </td><td>Abhinavoday Housing Multi State Cooperative Society Ltd </td><td>MSCS/CR/1159/2014</td><td class="state">GUJARAT                                           </td><td class="year">2019-20</td><td class="date">30 Mar 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                72
+                            </td><td>Abhinavoday Housing Multi State Cooperative Society Ltd </td><td>MSCS/CR/1159/2014</td><td class="state">GUJARAT                                           </td><td class="year">2019-20</td><td class="date">28 Feb 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                73
+                            </td><td>Abhinavoday Housing Multi State Cooperative Society Ltd </td><td>MSCS/CR/1159/2014</td><td class="state">GUJARAT                                           </td><td class="year">2019-20</td><td class="date">01 Feb 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                74
+                            </td><td>Abhinavoday Housing Multi State Cooperative Society Ltd </td><td>MSCS/CR/1159/2014</td><td class="state">GUJARAT                                           </td><td class="year">2019-20</td><td class="date">30 Mar 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                75
+                            </td><td>Abhinavoday Housing Multi State Cooperative Society Ltd </td><td>MSCS/CR/1159/2014</td><td class="state">GUJARAT                                           </td><td class="year">2019-20</td><td class="date">07 Jan 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                76
+                            </td><td>Abirami Cooperative Housing Society ltd., </td><td>MSCS/CR/1026/2014</td><td class="state">TAMIL NADU                                        </td><td class="year">2019-20</td><td class="date">30 Mar 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                77
+                            </td><td>Abirami Cooperative Housing Society ltd., </td><td>MSCS/CR/1026/2014</td><td class="state">TAMIL NADU                                        </td><td class="year">2019-20</td><td class="date">30 Mar 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                78
+                            </td><td>Abirami Cooperative Housing Society ltd., </td><td>MSCS/CR/1026/2014</td><td class="state">TAMIL NADU                                        </td><td class="year">2019-20</td><td class="date">07 Jan 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                79
+                            </td><td>Abirami Cooperative Housing Society ltd., </td><td>MSCS/CR/1026/2014</td><td class="state">TAMIL NADU                                        </td><td class="year">2019-20</td><td class="date">28 Feb 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                80
+                            </td><td>Abirami Cooperative Housing Society ltd., </td><td>MSCS/CR/1026/2014</td><td class="state">TAMIL NADU                                        </td><td class="year">2019-20</td><td class="date">21 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                81
+                            </td><td>Abirami Cooperative Housing Society ltd., </td><td>MSCS/CR/1026/2014</td><td class="state">TAMIL NADU                                        </td><td class="year">2019-20</td><td class="date">21 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                82
+                            </td><td>Abirami Cooperative Housing Society ltd., </td><td>MSCS/CR/1026/2014</td><td class="state">TAMIL NADU                                        </td><td class="year">2019-20</td><td class="date">06 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                83
+                            </td><td>Abirami Cooperative Housing Society ltd., </td><td>MSCS/CR/1026/2014</td><td class="state">TAMIL NADU                                        </td><td class="year">2019-20</td><td class="date">31 Aug 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                84
+                            </td><td>ABN Multistate Agro Purpose Cooperative Society ltd., </td><td>MSCS/CR/1009/2014</td><td class="state">UTTAR PRADESH                                     </td><td class="year">2019-20</td><td class="date">21 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                85
+                            </td><td>ABN Multistate Agro Purpose Cooperative Society ltd., </td><td>MSCS/CR/1009/2014</td><td class="state">UTTAR PRADESH                                     </td><td class="year">2019-20</td><td class="date">21 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                86
+                            </td><td>ABN Multistate Agro Purpose Cooperative Society ltd., </td><td>MSCS/CR/1009/2014</td><td class="state">UTTAR PRADESH                                     </td><td class="year">2019-20</td><td class="date">06 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                87
+                            </td><td>ABN Multistate Agro Purpose Cooperative Society ltd., </td><td>MSCS/CR/1009/2014</td><td class="state">UTTAR PRADESH                                     </td><td class="year">2019-20</td><td class="date">31 Aug 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                88
+                            </td><td>ABN Multistate Agro Purpose Cooperative Society ltd., </td><td>MSCS/CR/1009/2014</td><td class="state">UTTAR PRADESH                                     </td><td class="year">2019-20</td><td class="date">30 Mar 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                89
+                            </td><td>ABN Multistate Agro Purpose Cooperative Society ltd., </td><td>MSCS/CR/1009/2014</td><td class="state">UTTAR PRADESH                                     </td><td class="year">2019-20</td><td class="date">30 Mar 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                90
+                            </td><td>ABN Multistate Agro Purpose Cooperative Society ltd., </td><td>MSCS/CR/1009/2014</td><td class="state">UTTAR PRADESH                                     </td><td class="year">2019-20</td><td class="date">07 Jan 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                91
+                            </td><td>ABN Multistate Agro Purpose Cooperative Society ltd., </td><td>MSCS/CR/1009/2014</td><td class="state">UTTAR PRADESH                                     </td><td class="year">2019-20</td><td class="date">28 Feb 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                92
+                            </td><td>Access Microfinance Multi-State Cooperative Society Ltd., </td><td>MSCS/CR/319/2009</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">31 Aug 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                93
+                            </td><td>Access Microfinance Multi-State Cooperative Society Ltd., </td><td>MSCS/CR/319/2009</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">06 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                94
+                            </td><td>Access Microfinance Multi-State Cooperative Society Ltd., </td><td>MSCS/CR/319/2009</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">21 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                95
+                            </td><td>Access Microfinance Multi-State Cooperative Society Ltd., </td><td>MSCS/CR/319/2009</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">21 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+                                96
+                            </td><td>Access Microfinance Multi-State Cooperative Society Ltd., </td><td>MSCS/CR/319/2009</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">30 Mar 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                97
+                            </td><td>Access Microfinance Multi-State Cooperative Society Ltd., </td><td>MSCS/CR/319/2009</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">30 Mar 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                98
+                            </td><td>Access Microfinance Multi-State Cooperative Society Ltd., </td><td>MSCS/CR/319/2009</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">28 Feb 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                99
+                            </td><td>Access Microfinance Multi-State Cooperative Society Ltd., </td><td>MSCS/CR/319/2009</td><td class="state">MAHARASHTRA                                       </td><td class="year">2019-20</td><td class="date">07 Jan 2022</td>
+		</tr><tr >
+			<td class="s_no">
+                                100
+                            </td><td>Achievers Credit Cooperative Society Ltd., </td><td>MSCS/CR/732/2013</td><td class="state">UTTAR PRADESH                                     </td><td class="year">2019-20</td><td class="date">06 Dec 2021</td>
+		</tr><tr >
+			<td class="s_no">
+            </tr>
+        </table>
+    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <span id="Total">Total No of Annual Return filed for the    All Year  is </span>
+                    &nbsp;<span id="Count">100</span>
+                </td>
+    
+            </tr>
+        </table>
+    
+    
+       </div>
+
+    </section>
+
+<!----------------------------------------------------------------------------------->
+<!--                                   footer                                      -->
+<!----------------------------------------------------------------------------------->
+
+
+        <footer class="titles">
+        <div class="firstline">
+            <a href="#"> State Registers <span> | </span></a>
+            <a href="#"> Societies in the second schedule <span> | </span></a>
+            <a href="#"> Complaint & Hearing Notice <span> | </span></a>
+            <a href="#"> Hearing order Sheet <span> | </span></a>
+            <a href="#"> Circulars <span> | </span></a>
+            <a href="#"> Latest Certificates  <span> | </span></a>
+            <a href="#"> Amendment(Bye Laws) <span> | </span></a>
+            <a href="#"> Notice(New Registration) </a> 
+        </div>
+        <div class="secondline">
+            <a href="#"> Rejection Orders <span> | </span></a>
+            <a href="#"> Feedback <span> | </span></a>
+            <a href="#"> RTI <span> | </span></a>
+            <a href="#"> Other Links <span> | </span></a>
+            <a href="#"> Conatct Us <span> | </span></a>
+            <a href="#"> Grievance </a>
+        </div>
+
+        <p>Designed and Developed by computer students <a href="#">Disclaimer</a></p>
+
+
+    </footer>
+
+
+</body>
+</html>

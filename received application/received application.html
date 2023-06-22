@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>received application</title>
+    <link rel="stylesheet" href="received application.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header" id="Home">
+
+        <div class="sub-box">
+            <div class="image">
+                <img src="../images/satyamev jayte logo.png" alt="">
+            </div>
+
+            <div class="text">
+                <h2>MULTI-STATE CO-OPERATIVE SOCIETIES</h2>
+                <h4>Ministry of Cooperation, Govt. of India</h4>
+            </div>
+
+            <div class="logo">
+                <img src="../images/MSCS_LOGO.png" alt="">
+            </div>
+        </div>
+
+    </header>
+
+    <div class="nav">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">Chart</a>
+                <ul>
+                    <li><a href="../state wise/state wise.html">State-Wise</a></li>
+                    <li><a href="../year wise/year wise.html">Year-Wise</a></li>
+                    <li><a href="../type wise/type wise.html">Type-Wise</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Reg.Societies</a>
+                <ul>
+                    <li><a href="../state wise result/state wise result.html">State-Wise List</a></li>
+                    <li><a href="../files/ALL_REG_MSCS.pdf">All Reg.Societies(pdf)</a></li>
+                    <li><a href="../files/OldListMSCS.pdf">Societies Registered Before 1986</a></li>
+                    <li><a href="../Calender Year-Wise List/Calender Year-Wise List.html">Calender Year-Wise List</a></li>
+                    <li><a href="../Financial Year-Wise List/Financial Year-Wise List.html">Financial Year-Wise List</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Forms</a>
+                <ul>
+                    <li><a href="../FORM - I/form1.html">Form I</a></li>
+                    <li><a href="../FORM - II/form 2.html">Form II</a></li>
+                    <li><a href="../FORM - III/form3.html">Form III</a></li>
+                    <li><a href="../FORM - IV/form4.html">Form IV</a></li>
+                    <li><a href="../FORM - V/form5.html">Form V</a></li>
+                </ul>
+            </li>
+            <li><a href="#">MSCS Act</a>
+                <ul>
+                    <li><a href="../files/GuidelineAct2002.pdf">MSCS Act,2002</a></li>
+                    <li><a href="../files/Rules2002.pdf">MSCS Rules,2002</a></li>
+                    <li><a href="../check list/checklist.html">CheckList</a></li>
+                    <li><a href="../Model Bye-laws/Model Bye-laws.html">Model Bye-Laws</a></li>
+                    <li><a href="../files/NatPolicy02.pdf">National Policy on Cooperative,2002</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Applications</a>
+                <ul>
+                    <li><a href="../received application/received application.html">Received Application</a></li>
+                    <li><a href="../status of application/status of application.html">Status of Application</a></li>
+                </ul>
+            </li>
+            <li><a href="#">MSCS-MIS</a>
+                <ul>
+                    <li><a href="../New User Registratioin form/new registration.html">New User Registration</a></li>
+                    <li><a href="../user login/userlogin.html">User Login</a></li>
+                    <li><a href="../login page/loginpage.html">Admin User</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Reports</a>
+                <ul>
+                    <li><a href="../Registered User/Registered User.html">Registered Users</a></li>
+                    <li><a href="../Filed Annual Returns online/Filed Annual Returns.html">Filed Annual Returns Online</a></li>
+                    <li><a href="../Annual Returns  Offline/Annual Returns  Offline.html">Annual Returns Ofline</a></li>
+                    <li><a href="../Reminder Message/Reminder message.html">Reminder Message</a></li>
+                    <li><a href="../All Reg Societies/index.html">All Reg Societies</a></li>
+
+                </ul>
+            </li>
+            <li><a href="#">Liquidation</a>
+                <ul>
+                    <li><a href="../societies under liquidation/societies under liquidation.html">Socialities Under Liquidation</a></li>
+                    <li><a href="../LiquidationInitiated.pdf">Liquidation Process Initiated</a></li>
+                </ul>
+            </li>
+            <li><a href="../banks/banks.html">Banks</a></li>
+        </ul>
+
+    </div>
+
+    <section class="section">
+
+        <h1>Received Applications</h1>
+
+        <div id="site_content">
+       
+
+            <table>
+                <tr>
+                    <td >
+            <select name="DdlMonth" onchange="javascript:setTimeout" id="DdlMonth" class="DDListCustom">
+            <option selected="selected" value="0">-- Latest Proposals --</option>
+            <option value="12">December, 2022</option>
+            <option value="6">June, 2023</option>
+            <option value="5">May, 2023</option>
+            <option value="4">April, 2023</option>
+            <option value="3">March, 2023</option>
+            <option value="2">February, 2023</option>
+            <option value="1">January, 2023</option>
+        
+        </select>
+                        </td>
+                    <td >
+            <select name="ctl00$ContentPlaceHolder1$DdlPType" onchange="javascript:setTimeout" id="DdlPType" class="DDListCustom">
+        
+        </select>
+                        </td>
+                    </tr>
+                <tr>
+                    <td colspan="2" >
+            <br />
+             <div>
+            <table class="mGrid" cellspacing="0" rules="all" id="GridView1">
+                <tr>
+                    <th scope="col">S No</th><th scope="col">Society Name</th><th scope="col">State Name</th><th scope="col">District Name</th><th scope="col">Type</th><th scope="col">Received</th><th scope="col">Diposal Before</th>
+                </tr><tr >
+                    <td>
+                                    1
+                                </td><td class="society">BAIDYANATH AGRICULTURE &amp; MARKETING COOPERATIVE SOCIETY LTD</td><td class="state">JHARKHAND                                         </td><td class="state">GODDA</td><td class="state">New Registration</td><td class="date">16 Jun 2023</td><td class="date">15 Oct 2023</td>
+                </tr><tr >
+                    <td>
+                                    2
+                                </td><td class="society">Ajanta Agro Multi state Coperative Society, </td><td class="state">MAHARASHTRA                                       </td><td class="state">AHMEDNAGAR</td><td class="state">Amendments</td><td class="date">16 Jun 2023</td><td class="date">15 Sep 2023</td>
+                </tr><tr >
+                    <td>
+                                    3
+                                </td><td class="society">Proutist MultiState Cooperative Society Ltd.</td><td class="state">UTTAR PRADESH                                     </td><td class="state">LUCKNOW</td><td class="state">Amendments</td><td class="date">16 Jun 2023</td><td class="date">15 Sep 2023</td>
+                </tr><tr >
+                    <td>
+                                    4
+                                </td><td class="society">BIHAR STATE UCO BANK OFFICER&#39;&#39;S CREDIT &amp; THRIFT CO-OPERATIVE SOCIETY LTD.</td><td class="state">BIHAR                                             </td><td class="state">PATNA</td><td class="state">Deemed</td><td class="date">14 Jun 2023</td><td class="date">&nbsp;</td>
+                </tr><tr >
+                    <td>
+                                    5
+                                </td><td class="society">CHANDIGARH MULTIPURPOSE COOPERATIVE LTD</td><td class="state">CHANDIGARH</td><td class="state">CHANDIGARH</td><td class="state">New Registration</td><td class="date">14 Jun 2023</td><td class="date">13 Oct 2023</td>
+                </tr><tr >
+                    <td>
+                                    6
+                                </td><td class="society">The Lakshmi Vilas Bank Staff Co-operative Thrift and Credit Society Limited</td><td class="state">TAMIL NADU                                        </td><td class="state">CHENNAI</td><td class="state">Re-consideration for Amendment</td><td class="date">14 Jun 2023</td><td class="date">13 Sep 2023</td>
+                </tr><tr >
+                    <td>
+                                    7
+                                </td><td class="society">Agriculture Development Cooperative Federation</td><td class="state">PUNJAB                                            </td><td class="state">S.A.S NAGAR (MOHALI)</td><td class="state">Amendments</td><td class="date">13 Jun 2023</td><td class="date">12 Sep 2023</td>
+                </tr><tr >
+                    <td>
+                                    8
+                                </td><td class="society">Farmers Welfare And Growth Multi State Cooperative Society Limited</td><td class="state">TAMIL NADU                                        </td><td class="state">SALEM</td><td class="state">New Registration</td><td class="date">13 Jun 2023</td><td class="date">12 Oct 2023</td>
+                </tr><tr >
+                    <td>
+                                    9
+                                </td><td class="society">Shree Warana Sahakari Dudh Utpadak Prakriya Sangh Ltd</td><td class="state">MAHARASHTRA                                       </td><td class="state">KOLHAPUR</td><td class="state">Re-consideration for Amendment</td><td class="date">12 Jun 2023</td><td class="date">11 Sep 2023</td>
+                </tr><tr >
+                    <td>
+                                    10
+                                </td><td class="society">Dharashiv Multi State Co-operative Agro Purpose Society Ltd</td><td class="state">MAHARASHTRA                                       </td><td class="state">OSMANABAD</td><td class="state">New Registration</td><td class="date">12 Jun 2023</td><td class="date">11 Oct 2023</td>
+                </tr><tr >
+                    <td>
+                                    11
+                                </td><td class="society">Life Line Multi Specialty Co-operative Hospital and Research Center Ltd</td><td class="state">MAHARASHTRA                                       </td><td class="state">OSMANABAD</td><td class="state">New Registration</td><td class="date">12 Jun 2023</td><td class="date">11 Oct 2023</td>
+                </tr><tr >
+                    <td>
+                                    12
+                                </td><td class="society">Indian Cooperative Credit Society Ltd.</td><td class="state">KARNATAKA                                         </td><td class="state">BANGALORE</td><td class="state">Re-consideration for Amendment</td><td class="date">08 Jun 2023</td><td class="date">07 Sep 2023</td>
+                </tr><tr >
+                    <td>
+                                    13
+                                </td><td class="society">Annapurna Mahila Cooperative Credit Society Ltd., </td><td class="state">MAHARASHTRA                                       </td><td class="state">MUMBAI</td><td class="state">Re-consideration for Amendment</td><td class="date">08 Jun 2023</td><td class="date">07 Sep 2023</td>
+                </tr><tr >
+                    <td>
+                                    14
+                                </td><td class="society">Sardar patel Multi State Food Processing Co-operative Society Limited</td><td class="state">GUJARAT                                           </td><td class="state">DOHAD</td><td class="state">New Registration</td><td class="date">07 Jun 2023</td><td class="date">06 Oct 2023</td>
+                </tr><tr >
+                    <td>
+                                    15
+                                </td><td class="society">Samarth Multi-Specialty Cooperative Hospital And Research Center Ltd</td><td class="state">MAHARASHTRA                                       </td><td class="state">SATARA</td><td class="state">New Registration</td><td class="date">07 Jun 2023</td><td class="date">06 Oct 2023</td>
+                </tr><tr >
+                    <td>
+                                    16
+                                </td><td class="society">Indian Advocates Multi  State Multi purpose Cooperative Society Ltd.,</td><td class="state">MAHARASHTRA                                       </td><td class="state">MUMBAI</td><td class="state">Re-consideration for Amendment</td><td class="date">07 Jun 2023</td><td class="date">06 Sep 2023</td>
+                </tr><tr >
+                    <td>
+                                    17
+                                </td><td class="society">The Mehsana Urban Co-operative Bank Ltd</td><td class="state">GUJARAT                                           </td><td class="state">MAHESANA</td><td class="state">Amendments</td><td class="date">06 Jun 2023</td><td class="date">05 Sep 2023</td>
+                </tr><tr >
+                    <td>
+                                    18
+                                </td><td class="society">Indian Advocates Multi  State Multi purpose Cooperative Society Ltd.,</td><td class="state">MAHARASHTRA                                       </td><td class="state">MUMBAI</td><td class="state">Re-consideration for Amendment</td><td class="date">06 Jun 2023</td><td class="date">05 Sep 2023</td>
+                </tr><tr >
+                    <td>
+                                    19
+                                </td><td class="society">Sandoz &amp; Shawlace Employees Co-operative Credit Society Ltd.</td><td class="state">MAHARASHTRA                                       </td><td class="state">THANE</td><td class="state">Re-consideration for Amendment</td><td class="date">01 Jun 2023</td><td class="date">31 Aug 2023</td>
+                </tr><tr >
+                    <td>
+                                    20
+                                </td><td class="society">The Solar Energy Electricity Producers Multi State Cooperative Society (Proposed)</td><td class="state">TAMIL NADU                                        </td><td class="state">VILLUPURAM</td><td class="state">New Registration</td><td class="date">01 Jun 2023</td><td class="date">30 Sep 2023</td>
+                </tr><tr >
+                    <td>
+                                    21
+                                </td><td class="society">The Central Financial Credit and Investment Cooperative (India) ltd.</td><td class="state">KERALA                                            </td><td class="state">KOTTAYAM</td><td class="state">Amendments</td><td class="date">31 May 2023</td><td class="date">30 Aug 2023</td>
+                </tr><tr >
+                    <td>
+                                    22
+                                </td><td class="society">Shiv Arogya Seva Multi-Specialty Cooperative Hospital &amp; Research Center Ltd</td><td class="state">MAHARASHTRA                                       </td><td class="state">SATARA</td><td class="state">New Registration</td><td class="date">31 May 2023</td><td class="date">29 Sep 2023</td>
+                </tr><tr >
+                    <td>
+                                    23
+                                </td><td class="society">SHIVANSH AGRO MULTI STATE CO-OPERATIVE SOCIETY LIMITED</td><td class="state">UTTAR PRADESH                                     </td><td class="state">SULTANPUR</td><td class="state">New Registration</td><td class="date">31 May 2023</td><td class="date">29 Sep 2023</td>
+                </tr><tr >
+                    <td>
+                                    24
+                                </td><td class="society">KHARASROTA AGRO CO-OPERATIVE SOCIETY LTD.</td><td class="state">ODISHA                                           </td><td class="state">KENDRAPARA</td><td class="state">New Registration</td><td class="date">30 May 2023</td><td class="date">29 Sep 2023</td>
+                </tr><tr >
+                    <td>
+                                    25
+                                </td><td class="society">Proposed Surabhi Multi State Co-operative Dairy Society ltd.</td><td class="state">KERALA                                            </td><td class="state">KOLLAM</td><td class="state">New Registration</td><td class="date">29 May 2023</td><td class="date">28 Sep 2023</td>
+                </tr><tr >
+                    <td>
+                                    26
+                                </td><td class="society">Golden City Group Housing &amp; Construction Multi State Co-operative Society Limited</td><td class="state">NEW DELHI</td><td class="state">NEW DELHI</td><td class="state">New Registration</td><td class="date">29 May 2023</td><td class="date">28 Sep 2023</td>
+                </tr><tr >
+                    <td>
+                                    27
+                                </td><td class="society">Ansar Multi State Group Housing Cooperative Society Ltd.,</td><td class="state">GUJARAT                                           </td><td class="state">RAJKOT</td><td class="state">Amendments</td><td class="date">26 May 2023</td><td class="date">25 Aug 2023</td>
+                </tr><tr >
+                    <td>
+                                    28
+                                </td><td class="society">Max Secure Multi State Agro and marketing Co-operative Society Limited</td><td class="state">KERALA                                            </td><td class="state">KANNUR</td><td class="state">New Registration</td><td class="date">23 May 2023</td><td class="date">22 Sep 2023</td>
+                </tr><tr >
+                    <td>
+                                    29
+                                </td><td class="society">Tamil Nadu Multi-state Fisherman Development Co-operative Society Limited</td><td class="state">TAMIL NADU                                        </td><td class="state">SALEM</td><td class="state">New Registration</td><td class="date">22 May 2023</td><td class="date">21 Sep 2023</td>
+                </tr><tr >
+                    <td>
+                                    30
+                                </td><td class="society">B K Dhanlakshmi Multi State Agro Cooperative Society Limited</td><td class="state">TAMIL NADU                                        </td><td class="state">COIMBATORE</td><td class="state">Amendments</td><td class="date">18 May 2023</td><td class="date">17 Aug 2023</td>
+                </tr><tr >
+                    <td>
+                                    31
+                                </td><td class="society">The Adarsh cooperative Urban Bank Limited</td><td class="state">TELANGANA</td><td class="state">HYDERABAD</td><td class="state">Conversion</td><td class="date">18 May 2023</td><td class="date">&nbsp;</td>
+                </tr><tr >
+                    <td>
+                                    32
+                                </td><td class="society">Revati Multi State Multipurpose Cooperative Society Ltd.,</td><td class="state">WEST BENGAL                                       </td><td class="state">KOLKATA</td><td class="state">Amendments</td><td class="date">16 May 2023</td><td class="date">15 Aug 2023</td>
+                </tr><tr >
+                    <td>
+                                    33
+                                </td><td class="society">Soil Multi State Credit Cooperative Society Ltd</td><td class="state">MAHARASHTRA                                       </td><td class="state">PUNE</td><td class="state">New Registration</td><td class="date">12 May 2023</td><td class="date">11 Sep 2023</td>
+                </tr><tr >
+                    <td>
+                                    34
+                                </td><td class="society">Human Welfare Credit &amp; Thrift Cooperative Society Ltd.,</td><td class="state">NEW DELHI</td><td class="state">NEW DELHI</td><td class="state">Amendments</td><td class="date">12 May 2023</td><td class="date">11 Aug 2023</td>
+                </tr><tr >
+                    <td>
+                                    35
+                                </td><td class="society">National Multipurpose Cooperative Society Ltd</td><td class="state">TAMIL NADU                                        </td><td class="state">CHENNAI</td><td class="state">New Registration</td><td class="date">12 May 2023</td><td class="date">11 Sep 2023</td>
+                </tr><tr >
+                    <td>
+                                    36
+                                </td><td class="society">Motomi Bharat Multi State Cooperative Credit Society Ltd</td><td class="state">KERALA                                            </td><td class="state">KOZHIKODE</td><td class="state">New Registration</td><td class="date">09 May 2023</td><td class="date">08 Sep 2023</td>
+                </tr><tr >
+                    <td>
+                                    37
+                                </td><td class="society">Multi State Handloom Cooperative Society Ltd., </td><td class="state">MADHYA PRADESH                                    </td><td class="state">GWALIOR</td><td class="state">Amendments</td><td class="date">09 May 2023</td><td class="date">08 Aug 2023</td>
+                </tr><tr >
+                    <td>
+                                    38
+                                </td><td class="society">COSMOS Cooperative Bank Ltd., </td><td class="state">MAHARASHTRA                                       </td><td class="state">PUNE</td><td class="state">Amendments</td><td class="date">09 May 2023</td><td class="date">08 Aug 2023</td>
+                </tr><tr >
+                    <td>
+                                    39
+                                </td><td class="society">The Fortune Agricultural &amp; marketing Multi State Cooperative Society ltd.</td><td class="state">KERALA                                            </td><td class="state">ERNAKULAM</td><td class="state">New Registration</td><td class="date">03 May 2023</td><td class="date">02 Sep 2023</td>
+                </tr><tr >
+                    <td>
+                                    40
+                                </td><td class="society">Vasundhara Multipurpose Cooperative Society Ltd. </td><td class="state">MAHARASHTRA                                       </td><td class="state">AHMEDNAGAR</td><td class="state">Amendments</td><td class="date">03 May 2023</td><td class="date">02 Aug 2023</td>
+                </tr><tr >
+                    <td>
+                                    41
+                                </td><td class="society">Trimurti Multi State Urban Cooperative Credit Society Ltd., </td><td class="state">MAHARASHTRA                                       </td><td class="state">AHMEDNAGAR</td><td class="state">Re-consideration for Amendment</td><td class="date">03 May 2023</td><td class="date">02 Aug 2023</td>
+                </tr><tr >
+                    <td>
+                                    42
+                                </td><td class="society">Uttar Pradesh Bank Employees&#39;&#39; Credit Cooperative Society Ltd.,</td><td class="state">UTTAR PRADESH                                     </td><td class="state">LUCKNOW</td><td class="state">Amendments</td><td class="date">02 May 2023</td><td class="date">01 Aug 2023</td>
+                </tr><tr >
+                    <td>
+                                    43
+                                </td><td class="society">Kamdhenu Multi State Agro Cooperative society Ltd</td><td class="state">MAHARASHTRA                                       </td><td class="state">THANE</td><td class="state">New Registration</td><td class="date">01 May 2023</td><td class="date">31 Aug 2023</td>
+                </tr><tr >
+                    <td>
+                                    44
+                                </td><td class="society">Federation of Forestry &amp; allied Cooperative Limited</td><td class="state">UTTARAKHAND                           </td><td class="state">HARIDWAR                                          </td><td class="state">New Registration</td><td class="date">01 May 2023</td><td class="date">31 Aug 2023</td>
+                </tr><tr >
+                    <td>
+                                    45
+                                </td><td class="society">Sree Dhanalakshmi Multi State Agro Cooperative Society Ltd.</td><td class="state">KERALA                                            </td><td class="state">THRISSUR</td><td class="state">New Registration</td><td class="date">27 Apr 2023</td><td class="date">26 Aug 2023</td>
+                </tr><tr >
+                    <td>
+                                    46
+                                </td><td class="society">Devgiri Multi State Vehicle Services Cooperative Society Ltd.</td><td class="state">MAHARASHTRA                                       </td><td class="state">BEED</td><td class="state">New Registration</td><td class="date">27 Apr 2023</td><td class="date">26 Aug 2023</td>
+                </tr><tr >
+                    <td>
+                                    47
+                                </td><td class="society">Ente Naadu Multi State Agro Co-operative Society Ltd.</td><td class="state">KERALA                                            </td><td class="state">ERNAKULAM</td><td class="state">Amendments</td><td class="date">21 Apr 2023</td><td class="date">20 Jul 2023</td>
+                </tr><tr >
+                    <td>
+                                    48
+                                </td><td class="society">Bhima Sahakari Sakhar Karkhana Ltd.</td><td class="state">MAHARASHTRA                                       </td><td class="state">SOLAPUR</td><td class="state">Conversion</td><td class="date">21 Apr 2023</td><td class="date">&nbsp;</td>
+                </tr><tr >
+                    <td>
+                                    49
+                                </td><td class="society">Reliable Agro Multi State Cooperative Society Ltd, </td><td class="state">PUNJAB                                            </td><td class="state">BATHINDA</td><td class="state">Amendments</td><td class="date">21 Apr 2023</td><td class="date">20 Jul 2023</td>
+                </tr><tr >
+                    <td>
+                                    50
+                                </td><td class="society">Tirumalla Tirupati Multistate Cooperative Credit Society Ltd.,</td><td class="state">MAHARASHTRA                                       </td><td class="state">MUMBAI</td><td class="state">Amendments</td><td class="date">19 Apr 2023</td><td class="date">18 Jul 2023</td>
+                </tr><tr >
+                    <td>
+                                    51
+                                </td><td class="society">Shikshan Maharashi Dnyandev Mohekar Multi State Cooperative Credit Society Ltd.,</td><td class="state">MAHARASHTRA                                       </td><td class="state">OSMANABAD</td><td class="state">Amendments</td><td class="date">19 Apr 2023</td><td class="date">18 Jul 2023</td>
+                </tr><tr >
+                    <td>
+                                    52
+                                </td><td class="society">Swapnpurti Multi Specialty Coop. Hospital and Research Center Ltd</td><td class="state">MAHARASHTRA                                       </td><td class="state">BEED</td><td class="state">New Registration</td><td class="date">19 Apr 2023</td><td class="date">18 Aug 2023</td>
+                </tr><tr >
+                    <td>
+                                    53
+                                </td><td class="society">Sri Venkateswara Agriculture and marketing Multi-State Co-operative Society Ltd.</td><td class="state">TAMIL NADU                                        </td><td class="state">CHENNAI</td><td class="state">New Registration</td><td class="date">19 Apr 2023</td><td class="date">18 Aug 2023</td>
+                </tr><tr >
+                    <td>
+                                    54
+                                </td><td class="society">Ghazipur Agro Multi Estate Co-operative Society Ltd</td><td class="state">UTTAR PRADESH                                     </td><td class="state">GHAZIPUR</td><td class="state">New Registration</td><td class="date">19 Apr 2023</td><td class="date">18 Aug 2023</td>
+                </tr><tr >
+                    <td>
+                                    55
+                                </td><td class="society">Travancore Co-operative Society Ltd</td><td class="state">KERALA                                            </td><td class="state">KOLLAM</td><td class="state">New Registration</td><td class="date">13 Apr 2023</td><td class="date">12 Aug 2023</td>
+                </tr><tr >
+                    <td>
+                                    56
+                                </td><td class="society">Allahabad Bank Employees Thrift &amp; Credit Co-Operative Society Ltd., Patna</td><td class="state">BIHAR                                             </td><td class="state">PATNA</td><td class="state">Deemed</td><td class="date">10 Apr 2023</td><td class="date">&nbsp;</td>
+                </tr><tr >
+                    <td>
+                                    57
+                                </td><td class="society">Jivan Multi state Multi purpose Coopertive Society Ltd., </td><td class="state">MAHARASHTRA                                       </td><td class="state">MUMBAI</td><td class="state">Amendments</td><td class="date">10 Apr 2023</td><td class="date">09 Jul 2023</td>
+                </tr><tr >
+                    <td>
+                                    58
+                                </td><td class="society">e-tribe Agriculture &amp; Export Marketing Multi State cooperative Society Ltd.</td><td class="state">NEW DELHI</td><td class="state">NEW DELHI</td><td class="state">New Registration</td><td class="date">10 Apr 2023</td><td class="date">09 Aug 2023</td>
+                </tr><tr >
+                    <td>
+                                    59
+                                </td><td class="society">Adarsh Co-operative Bank Ltd Multi State</td><td class="state">RAJASTHAN                                         </td><td class="state">SIROHI</td><td class="state">New Registration</td><td class="date">10 Apr 2023</td><td class="date">09 Aug 2023</td>
+                </tr><tr >
+                    <td>
+                                    60
+                                </td><td class="society">The Central Government Staff Coop. Thrift and Credit Society Ltd.</td><td class="state">TAMIL NADU                                        </td><td class="state">CHENNAI</td><td class="state">Amendments</td><td class="date">10 Apr 2023</td><td class="date">09 Jul 2023</td>
+                </tr><tr >
+                    <td>
+                                    61
+                                </td><td class="society">Central PWD Employees Coop. Thrift &amp; Credit Society</td><td class="state">TAMIL NADU                                        </td><td class="state">CHENNAI</td><td class="state">Amendments</td><td class="date">10 Apr 2023</td><td class="date">09 Jul 2023</td>
+                </tr><tr >
+                    <td>
+                                    62
+                                </td><td class="society">Indo Arya Agro Processing and Marketing Co-operative Limited</td><td class="state">UTTAR PRADESH                                     </td><td class="state">KANPUR NAGAR</td><td class="state">New Registration</td><td class="date">10 Apr 2023</td><td class="date">09 Aug 2023</td>
+                </tr><tr >
+                    <td>
+                                    63
+                                </td><td class="society">Swami Vivekananda Multi State cooperative Development Society Ltd.</td><td class="state">WEST BENGAL                                       </td><td class="state">KOLKATA</td><td class="state">New Registration</td><td class="date">10 Apr 2023</td><td class="date">09 Aug 2023</td>
+                </tr><tr >
+                    <td>
+                                    64
+                                </td><td class="society">National Federation of Farmers&amp;amp;#39; procurement , Processing and Retailing Cooperative of India Ltd.</td><td class="state">NEW DELHI</td><td class="state">NEW DELHI</td><td class="state">Amendments</td><td class="date">06 Apr 2023</td><td class="date">05 Jul 2023</td>
+                </tr><tr >
+                    <td>
+                                    65
+                                </td><td class="society">Sri Sai Self-supporting industrial Co-operative Society Ltd</td><td class="state">JHARKHAND                                         </td><td class="state">RANCHI</td><td class="state">Conversion</td><td class="date">05 Apr 2023</td><td class="date">&nbsp;</td>
+                </tr><tr >
+                    <td>
+                                    66
+                                </td><td class="society">Pragatisheel Kisan Multi State Cooperative Society Limited</td><td class="state">UTTAR PRADESH                                     </td><td class="state">LUCKNOW</td><td class="state">New Registration</td><td class="date">05 Apr 2023</td><td class="date">04 Aug 2023</td>
+                </tr><tr >
+                    <td>
+                                    67
+                                </td><td class="society">D. Dhanashri Multi State Cooperative Credit Society Ltd., </td><td class="state">MAHARASHTRA                                       </td><td class="state">MUMBAI</td><td class="state">Amendments</td><td class="date">03 Apr 2023</td><td class="date">02 Jul 2023</td>
+                </tr><tr >
+                    <td>
+                                    68
+                                </td><td class="society">Triumph Infrastructure &amp; Labour Contract Cooperative Society Ltd</td><td class="state">KERALA                                            </td><td class="state">THRISSUR</td><td class="state">New Registration</td><td class="date">31 Mar 2023</td><td class="date">30 Jul 2023</td>
+                </tr><tr >
+                    <td>
+                                    69
+                                </td><td class="society">Kamdhenu Dairy Multi State Co-operative Society Limited</td><td class="state">MADHYA PRADESH                                    </td><td class="state">GWALIOR</td><td class="state">New Registration</td><td class="date">31 Mar 2023</td><td class="date">30 Jul 2023</td>
+                </tr><tr >
+                    <td>
+                                    70
+                                </td><td class="society">Sundarao Solanke Multi Specialty Co-Op. Hospital and Research Center Ltd</td><td class="state">MAHARASHTRA                                       </td><td class="state">BEED</td><td class="state">New Registration</td><td class="date">31 Mar 2023</td><td class="date">30 Jul 2023</td>
+                </tr><tr >
+                    <td>
+                                    71
+                                </td><td class="society">Dhanashri Multi State Cooperative Credit Society Ltd. Mangalwedha</td><td class="state">MAHARASHTRA                                       </td><td class="state">SOLAPUR</td><td class="state">Amendments</td><td class="date">31 Mar 2023</td><td class="date">29 Jun 2023</td>
+                </tr><tr >
+                    <td>
+                                    72
+                                </td><td class="society">New Satara Zilla Nagrik Multi state Cooperative Credit Society Ltd.</td><td class="state">MAHARASHTRA                                       </td><td class="state">MUMBAI</td><td class="state">Amendments</td><td class="date">31 Mar 2023</td><td class="date">29 Jun 2023</td>
+                </tr><tr >
+                    <td>
+                                    73
+                                </td><td class="society">Fruition Multipurpose Cooperative Society ltd.,</td><td class="state">WEST BENGAL                                       </td><td class="state">HOWRAH</td><td class="state">Amendments</td><td class="date">31 Mar 2023</td><td class="date">29 Jun 2023</td>
+                </tr><tr >
+                    <td>
+                                    74
+                                </td><td class="society">Fruition Multipurpose Cooperative Society ltd.,</td><td class="state">WEST BENGAL                                       </td><td class="state">HOWRAH</td><td class="state">Amendments</td><td class="date">31 Mar 2023</td><td class="date">29 Jun 2023</td>
+                </tr><tr >
+                    <td>
+                                    75
+                                </td><td class="society">Supreme Federation of Labour &amp; Infrastructure cooperative Ltd.</td><td class="state">HARYANA                                           </td><td class="state">GURGAON</td><td class="state">New Registration</td><td class="date">29 Mar 2023</td><td class="date">28 Jul 2023</td>
+                </tr><tr >
+                    <td>
+                                    76
+                                </td><td class="society">Great Lakes Multistate Cooperative Housing Society Ltd.,</td><td class="state">TAMIL NADU                                        </td><td class="state">CHENNAI</td><td class="state">Amendments</td><td class="date">29 Mar 2023</td><td class="date">28 Jun 2023</td>
+                </tr><tr >
+                    <td>
+                                    77
+                                </td><td class="society">Nice Agro Cooperative Society India Ltd., </td><td class="state">NEW DELHI</td><td class="state">NEW DELHI</td><td class="state">Amendments</td><td class="date">28 Mar 2023</td><td class="date">27 Jun 2023</td>
+                </tr><tr >
+                    <td>
+                                    78
+                                </td><td class="society">Southern Green Farming and Marketing Multi-State Cooperative Society Ltd., </td><td class="state">KERALA                                            </td><td class="state">KOZHIKODE</td><td class="state">Amendments</td><td class="date">27 Mar 2023</td><td class="date">26 Jun 2023</td>
+                </tr><tr >
+                    <td>
+                                    79
+                                </td><td class="society">Kairali Agriculture Multi State Cooperative Society Ltd.</td><td class="state">KERALA                                            </td><td class="state">THRISSUR</td><td class="state">Amendments</td><td class="date">24 Mar 2023</td><td class="date">23 Jun 2023</td>
+                </tr><tr >
+                    <td>
+                                    80
+                                </td><td class="society">Southwest Agri Allied Multi State Co-operative Society Ltd.</td><td class="state">KERALA                                            </td><td class="state">IDUKKI</td><td class="state">New Registration</td><td class="date">24 Mar 2023</td><td class="date">23 Jul 2023</td>
+                </tr><tr >
+                    <td>
+                                    81
+                                </td><td class="society">Swarnabhumi Agriculture &amp; Marketing Cooperative Society Ltd</td><td class="state">KERALA                                            </td><td class="state">THRISSUR</td><td class="state">New Registration</td><td class="date">24 Mar 2023</td><td class="date">23 Jul 2023</td>
+                </tr><tr >
+                    <td>
+                                    82
+                                </td><td class="society">Proposed Ashtamudi Agricultural and Allied Multi-State Co-operative Society Ltd.</td><td class="state">KERALA                                            </td><td class="state">KOLLAM</td><td class="state">New Registration</td><td class="date">24 Mar 2023</td><td class="date">23 Jul 2023</td>
+                </tr><tr >
+                    <td>
+                                    83
+                                </td><td class="society">Rise Capital Multi-State Agro co-operative Society Ltd</td><td class="state">KERALA                                            </td><td class="state">MALAPPURAM</td><td class="state">New Registration</td><td class="date">24 Mar 2023</td><td class="date">23 Jul 2023</td>
+                </tr><tr >
+                    <td>
+                                    84
+                                </td><td class="society">Utsav Vikas Agro Multi State Cooperative Society Ltd</td><td class="state">UTTAR PRADESH                                     </td><td class="state">RAMPUR</td><td class="state">Amendments</td><td class="date">24 Mar 2023</td><td class="date">23 Jun 2023</td>
+                </tr><tr >
+                    <td>
+                                    85
+                                </td><td class="society">ABN Multistate Agro Purpose Cooperative Society ltd., </td><td class="state">UTTAR PRADESH                                     </td><td class="state">BADAUN</td><td class="state">Amendments</td><td class="date">24 Mar 2023</td><td class="date">23 Jun 2023</td>
+                </tr><tr >
+                    <td>
+                                    86
+                                </td><td class="society">Krushisadhna Mahila Multi State Agro Cooperative society Ltd</td><td class="state">MAHARASHTRA                                       </td><td class="state">NASIK</td><td class="state">Amendments</td><td class="date">23 Mar 2023</td><td class="date">22 Jun 2023</td>
+                </tr><tr >
+                    <td>
+                                    87
+                                </td><td class="society">Wishvaas Credit Cooperative Society Ltd.,</td><td class="state">PUNJAB                                            </td><td class="state">S.A.S NAGAR (MOHALI)</td><td class="state">Amendments</td><td class="date">21 Mar 2023</td><td class="date">20 Jun 2023</td>
+                </tr><tr >
+                    <td>
+                                    88
+                                </td><td class="society">Fingrowth Cooperative Bank Ltd</td><td class="state">RAJASTHAN                                         </td><td class="state">JAIPUR</td><td class="state">Amendments</td><td class="date">21 Mar 2023</td><td class="date">20 Jun 2023</td>
+                </tr><tr >
+                    <td>
+                                    89
+                                </td><td class="society">Shri Keshav Co-operative Credit society Ltd</td><td class="state">GUJARAT                                           </td><td class="state">JUNAGADH</td><td class="state">Conversion</td><td class="date">20 Mar 2023</td><td class="date">&nbsp;</td>
+                </tr><tr >
+                    <td>
+                                    90
+                                </td><td class="society">Narmada Urban Multi - State Co-Op. Credit Society Limited</td><td class="state">MAHARASHTRA                                       </td><td class="state">BEED</td><td class="state">New Registration</td><td class="date">20 Mar 2023</td><td class="date">19 Jul 2023</td>
+                </tr><tr >
+                    <td>
+                                    91
+                                </td><td class="society">The Maratha Gold and Silver Refiners Multi State Cooperative Credit Society Ltd.</td><td class="state">ANDHRA PRADESH                                    </td><td class="state">HYDERABAD</td><td class="state">Amendments</td><td class="date">16 Mar 2023</td><td class="date">15 Jun 2023</td>
+                </tr><tr >
+                    <td>
+                                    92
+                                </td><td class="society">The Maratha Gold and Silver Refiners Multi State Cooperative Credit Society Ltd.</td><td class="state">ANDHRA PRADESH                                    </td><td class="state">HYDERABAD</td><td class="state">Amendments</td><td class="date">16 Mar 2023</td><td class="date">15 Jun 2023</td>
+                </tr><tr >
+                    <td>
+                                    93
+                                </td><td class="society">Indian Farmers&#39;&#39; Cooperative Society Ltd.</td><td class="state">KERALA                                            </td><td class="state">IDUKKI</td><td class="state">New Registration</td><td class="date">16 Mar 2023</td><td class="date">15 Jul 2023</td>
+                </tr><tr >
+                    <td>
+                                    94
+                                </td><td class="society">Mahesh Multi State Cooperative Credit Society Ltd.</td><td class="state">MAHARASHTRA                                       </td><td class="state">AHMEDNAGAR</td><td class="state">Amendments</td><td class="date">16 Mar 2023</td><td class="date">15 Jun 2023</td>
+                </tr><tr >
+                    <td>
+                                    95
+                                </td><td class="society">Multi State Agri-Horticultural Developement Cooperative Society Ltd.</td><td class="state">KERALA                                            </td><td class="state">KOTTAYAM</td><td class="state">Re-consideration for Amendment</td><td class="date">15 Mar 2023</td><td class="date">11 Apr 2023</td>
+                </tr><tr >
+                    <td>
+                                    96
+                                </td><td class="society">Heaven Multi State Agro Cooperative Society Ltd</td><td class="state">UTTAR PRADESH                                     </td><td class="state">DEORIA</td><td class="state">Amendments</td><td class="date">15 Mar 2023</td><td class="date">14 Jun 2023</td>
+                </tr><tr >
+                    <td>
+                                    97
+                                </td><td class="society">Bharath Agro Processing and marketing Co-operative Ltd.</td><td class="state">NEW DELHI</td><td class="state">NEW DELHI</td><td class="state">Amendments</td><td class="date">14 Mar 2023</td><td class="date">13 Jun 2023</td>
+                </tr><tr >
+                    <td>
+                                    98
+                                </td><td class="society">Chambal Agriculture Marketing Cooperative Ltd</td><td class="state">MADHYA PRADESH                                    </td><td class="state">BHIND</td><td class="state">Amendments</td><td class="date">13 Mar 2023</td><td class="date">12 Jun 2023</td>
+                </tr><tr >
+                    <td>
+                                    99
+                                </td><td class="society">Jagat Jyoti Multi -State Co-operative Credit Society Limited</td><td class="state">MAHARASHTRA                                       </td><td class="state">LATUR</td><td class="state">New Registration</td><td class="date">13 Mar 2023</td><td class="date">12 Jul 2023</td>
+                </tr><tr >
+                    <td>
+                                    100
+                                </td><td class="society">Shri Swami Vivekanand Multistate Cooperative Credit Society Ltd., </td><td class="state">MAHARASHTRA                                       </td><td class="state">AURANGABAD</td><td class="state">Amendments</td><td class="date">13 Mar 2023</td><td class="date">12 Jun 2023</td>
+                </tr><tr>
+                    <td colspan="7"><table>
+                        <tr>
+                            <td><span>1</span></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GridView1&#39;,&#39;Page$2&#39;)">2</a></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GridView1&#39;,&#39;Page$3&#39;)">3</a></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GridView1&#39;,&#39;Page$4&#39;)">4</a></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GridView1&#39;,&#39;Page$5&#39;)">5</a></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GridView1&#39;,&#39;Page$6&#39;)">6</a></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GridView1&#39;,&#39;Page$7&#39;)">7</a></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GridView1&#39;,&#39;Page$8&#39;)">8</a></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GridView1&#39;,&#39;Page$9&#39;)">9</a></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GridView1&#39;,&#39;Page$10&#39;)">10</a></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GridView1&#39;,&#39;Page$11&#39;)">...</a></td>
+                        </tr>
+                    </table></td>
+                </tr>
+            </table>
+        </div>
+                        </td>
+                    </tr>
+                 <tr>
+                    <td>
+                        <span id="Total">Total Received Proposals :</span>
+        &nbsp;<span id="Count">100</span>
+                    </td>
+                    <td>&nbsp;</td>
+                </tr>
+        
+            </table>
+        
+           </div>
+    </section>
+
+    <footer class="titles">
+        <div class="firstline">
+            <a href="#"> State Registers <span> | </span></a>
+            <a href="#"> Societies in the second schedule <span> | </span></a>
+            <a href="#"> Complaint & Hearing Notice <span> | </span></a>
+            <a href="#"> Hearing order Sheet <span> | </span></a>
+            <a href="#"> Circulars <span> | </span></a>
+            <a href="#"> Latest Certificates  <span> | </span></a>
+            <a href="#"> Amendment(Bye Laws) <span> | </span></a>
+            <a href="#"> Notice(New Registration) </a> 
+        </div>
+        <div class="secondline">
+            <a href="#"> Rejection Orders <span> | </span></a>
+            <a href="#"> Feedback <span> | </span></a>
+            <a href="#"> RTI <span> | </span></a>
+            <a href="#"> Other Links <span> | </span></a>
+            <a href="#"> Conatct Us <span> | </span></a>
+            <a href="#"> Grievance </a>
+        </div>
+
+        <p>Designed and Developed by computer students <a href="#">Disclaimer</a></p>
+
+
+    </footer>
+</body>
+</html>

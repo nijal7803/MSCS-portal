@@ -1,0 +1,1582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annual Returns Offline</title>
+    <link rel="stylesheet" href="Annual Returns  Offline.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    
+    <header class="header" id="Home">
+
+        <div class="sub-box">
+            <div class="image">
+                <img src="../images/satyamev jayte logo.png" alt="">
+            </div>
+
+            <div class="text">
+                <h2>MULTI-STATE CO-OPERATIVE SOCIETIES</h2>
+                <h4>Ministry of Cooperation, Govt. of India</h4>
+            </div>
+
+            <div class="logo">
+                <img src="../images/MSCS_LOGO.png" alt="">
+            </div>
+        </div>
+
+    </header>
+
+    <div class="nav">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">Chart</a>
+                <ul>
+                    <li><a href="../state wise/state wise.html">State-Wise</a></li>
+                    <li><a href="../year wise/year wise.html">Year-Wise</a></li>
+                    <li><a href="../type wise/type wise.html">Type-Wise</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Reg.Societies</a>
+                <ul>
+                    <li><a href="../state wise result/state wise result.html">State-Wise List</a></li>
+                    <li><a href="../files/ALL_REG_MSCS.pdf">All Reg.Societies(pdf)</a></li>
+                    <li><a href="../files/OldListMSCS.pdf">Societies Registered Before 1986</a></li>
+                    <li><a href="../Calender Year-Wise List/Calender Year-Wise List.html">Calender Year-Wise List</a></li>
+                    <li><a href="../Financial Year-Wise List/Financial Year-Wise List.html">Financial Year-Wise List</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Forms</a>
+                <ul>
+                    <li><a href="../FORM - I/form1.html">Form I</a></li>
+                    <li><a href="../FORM - II/form 2.html">Form II</a></li>
+                    <li><a href="../FORM - III/form3.html">Form III</a></li>
+                    <li><a href="../FORM - IV/form4.html">Form IV</a></li>
+                    <li><a href="../FORM - V/form5.html">Form V</a></li>
+                </ul>
+            </li>
+            <li><a href="#">MSCS Act</a>
+                <ul>
+                    <li><a href="../files/GuidelineAct2002.pdf">MSCS Act,2002</a></li>
+                    <li><a href="../files/Rules2002.pdf">MSCS Rules,2002</a></li>
+                    <li><a href="../check list/checklist.html">CheckList</a></li>
+                    <li><a href="../Model Bye-laws/Model Bye-laws.html">Model Bye-Laws</a></li>
+                    <li><a href="../files/NatPolicy02.pdf">National Policy on Cooperative,2002</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Applications</a>
+                <ul>
+                    <li><a href="../received application/received application.html">Received Application</a></li>
+                    <li><a href="../status of application/status of application.html">Status of Application</a></li>
+                </ul>
+            </li>
+            <li><a href="#">MSCS-MIS</a>
+                <ul>
+                    <li><a href="../New User Registratioin form/new registration.html">New User Registration</a></li>
+                    <li><a href="../user login/userlogin.html">User Login</a></li>
+                    <li><a href="../login page/loginpage.html">Admin User</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Reports</a>
+                <ul>
+                    <li><a href="../Registered User/Registered User.html">Registered Users</a></li>
+                    <li><a href="../Filed Annual Returns online/Filed Annual Returns.html">Filed Annual Returns Online</a></li>
+                    <li><a href="../Annual Returns  Offline/Annual Returns  Offline.html">Annual Returns Ofline</a></li>
+                    <li><a href="../Reminder Message/Reminder message.html">Reminder Message</a></li>
+                    <li><a href="../All Reg Societies/index.html">All Reg Societies</a></li>
+
+                </ul>
+            </li>
+            <li><a href="#">Liquidation</a>
+                <ul>
+                    <li><a href="../societies under liquidation/societies under liquidation.html">Socialities Under Liquidation</a></li>
+                    <li><a href="../LiquidationInitiated.pdf">Liquidation Process Initiated</a></li>
+                </ul>
+            </li>
+            <li><a href="../banks/banks.html">Banks</a></li>
+        </ul>
+
+    </div>
+
+    <section class="section">
+        <div id="site_content">
+       
+   
+            <table>
+               <tr>
+                   <td >
+                       <span id="Label1">List of Annual Returns Received by Offline</span>
+                   &nbsp;: <span id="Count1">1319</span>
+                   </td>
+                   <td id="Label2">
+                       <span>Year : </span>
+       &nbsp;<select name="DdlYear" id="DdlYear" class="DDListCSS">
+           <option selected="selected" value="0"> All Year </option>
+           <option value="2021-22">2021-22</option>
+           <option value="2020-21">2020-21</option>
+           <option value="2019-20">2019-20</option>
+           <option value="2018-19">2018-19</option>
+           <option value="2017-18">2017-18</option>
+           <option value="2016-17">2016-17</option>
+           <option value="2015-16">2015-16</option>
+       
+       </select>
+                   &nbsp;</td>
+               </tr>
+             
+               <tr>
+                   <td colspan="2">
+                       <div>
+           <table class="mGrid" cellspacing="0" rules="all" id="GridView1">
+               <tr>
+                   <th scope="col">S No</th><th scope="col">Name</th><th scope="col">Reg No</th><th scope="col">State/UT</th><th scope="col">Year</th><th scope="col">Received ON</th>
+               </tr><tr >
+                   <td >
+                                   1
+                               </td><td>Rani Lakshmibai Krishak Multi State Cooperative
+       Society Limited</td><td>MSCS/CR/1143/2014</td><td class="data">JHARKHAND                                         </td> <td class="date" >2021-22</td><td class="date1" >26 Sep 2022</td>
+               </tr><tr >
+                   <td >
+                                   2
+                               </td><td>South Central Railway Employee's Co-operative Credit Society Ltd.</td><td>-105</td><td class="city" >ANDHRA PRADESH                                    </td> <td class="date" >2021-22</td><td class="date1" >26 Sep 2022</td>
+               </tr><tr >
+                   <td >
+                                   3
+                               </td><td>The Best Cooperative Group Housing Society Ltd., </td><td>MSCS/CR/864/2013</td><td class="city" >NEW DELHI</td> <td class="date" >2021-22</td><td class="date1" >26 Sep 2022</td>
+               </tr><tr >
+                   <td >
+                                   4
+                               </td><td>The Jackson Co-operative Credit Society of the Employees of the Western Railway Ltd.</td><td>M</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2021-22</td><td class="date1" >26 Sep 2022</td>
+               </tr><tr >
+                   <td >
+                                   5
+                               </td><td>The State Bank of India Staff Association Thrift & Credit Cooperative Society ltd., </td><td>MSCS/CR/76/98</td><td class="city" >ASSAM                                             </td> <td class="date" >2021-22</td><td class="date1" >26 Sep 2022</td>
+               </tr><tr >
+                   <td >
+                                   6
+                               </td><td>Utsav Vikas Agro Multi State Cooperative Society Ltd</td><td>MSCS/CR/1167/2014</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2021-22</td><td class="date1" >26 Sep 2022</td>
+               </tr><tr >
+                   <td >
+                                   7
+                               </td><td>LDC Multi State Cooperative Credit Society Ltd., </td><td>MSCS/CR/604/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2021-22</td><td >21 Sep 2022</td>
+               </tr><tr >
+                   <td >
+                                   8
+                               </td><td>Rose Malar Developmental Cooperative Society Ltd., </td><td>MSCS/CR/291/2008</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2021-22</td><td >21 Sep 2022</td>
+               </tr><tr >
+                   <td >
+                                   9
+                               </td><td>Sai Aadarsh Multi State Cooperative Credit Society Ltd., </td><td>MSCS/CR/753/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2021-22</td><td >21 Sep 2022</td>
+               </tr><tr >
+                   <td >
+                                   10
+                               </td><td>Tumkur Merchants Credit Cooperative Limited</td><td>MSCS/CR/1130/2014</td><td class="city" >KARNATAKA                                         </td> <td class="date" >2021-22</td><td >21 Sep 2022</td>
+               </tr><tr >
+                   <td >
+                                   11
+                               </td><td>Aditya Anagha Multi State Credit Cooperativwe Society Ltd.,</td><td>MSCS/CR/398/2011</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2021-22</td><td >19 Sep 2022</td>
+               </tr><tr >
+                   <td >
+                                   12
+                               </td><td>Gurukrupa Multipurpose Cooperatvie Society ltd., </td><td>MSCS/CR/844/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2016-17</td><td >19 Sep 2022</td>
+               </tr><tr >
+                   <td >
+                                   13
+                               </td><td>Jyotipath Multipurpose Cooperative Society Ltd.,</td><td>MSCS/CR/321/2009</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2021-22</td><td >19 Sep 2022</td>
+               </tr><tr >
+                   <td >
+                                   14
+                               </td><td>Lokmangal Multi-State Cooperative Society Ltd</td><td>MSCS/CR/216/2005</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >19 Sep 2022</td>
+               </tr><tr >
+                   <td >
+                                   15
+                               </td><td>Sahayog Multi State Credit Cooperative Society Ltd. </td><td>MSCS/CR/1140/2014</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2021-22</td><td >19 Sep 2022</td>
+               </tr><tr >
+                   <td >
+                                   16
+                               </td><td>Shivpratap nagari Cooperative Credit Society Ltd.,</td><td>MSCS/CR/488/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2021-22</td><td >19 Sep 2022</td>
+               </tr><tr >
+                   <td >
+                                   17
+                               </td><td>Shree Om Siddhivinayak Multi State Coop. Society Ltd., </td><td>MSCS/CR/701/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2021-22</td><td >19 Sep 2022</td>
+               </tr><tr >
+                   <td >
+                                   18
+                               </td><td>The Kalyani Bright Future Multistate Credit Cooperative Society Ltd., </td><td>MSCS/CR/775/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2021-22</td><td >19 Sep 2022</td>
+               </tr><tr >
+                   <td >
+                                   19
+                               </td><td>Vasantdada Multi State Coop. Credit Society ltd.,</td><td>MSCS/CR/521/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2021-22</td><td >19 Sep 2022</td>
+               </tr><tr >
+                   <td >
+                                   20
+                               </td><td>National Federation of Cooperative Sugar Factories Ltd.</td><td>-17</td><td class="city" >NEW DELHI</td> <td class="date" >2020-21</td><td >04 Jul 2022</td>
+               </tr><tr >
+                   <td >
+                                   21
+                               </td><td>National Federation of Cooperative Sugar Factories Ltd.</td><td>-17</td><td class="city" >NEW DELHI</td> <td class="date" >2019-20</td><td >04 Jul 2022</td>
+               </tr><tr >
+                   <td >
+                                   22
+                               </td><td>Raptakos Brett & Company Employees Coop Credit Society Ltd.</td><td>-93</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2021-22</td><td >04 Jul 2022</td>
+               </tr><tr >
+                   <td >
+                                   23
+                               </td><td>Sharad Multi State Cooperative Credit Society Ltd., </td><td>MSCS/CR/388/2011</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2019-20</td><td >04 Jul 2022</td>
+               </tr><tr >
+                   <td >
+                                   24
+                               </td><td>Bharath Lajhna Multi State Housing Cooperative Society Ltd., </td><td>MSCS/CR/235/2006</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2019-20</td><td >21 Jun 2022</td>
+               </tr><tr >
+                   <td >
+                                   25
+                               </td><td>Bharath Lajhna Multi State Housing Cooperative Society Ltd., </td><td>MSCS/CR/235/2006</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >21 Jun 2022</td>
+               </tr><tr >
+                   <td >
+                                   26
+                               </td><td>Lokkalyan Multi State Credit Coop. Society ltd.,</td><td>MSCS/CR/702/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2021-22</td><td >21 Jun 2022</td>
+               </tr><tr >
+                   <td >
+                                   27
+                               </td><td>Rajarshi Shahu Multistate Cooperative Credit Society Ltd.,</td><td>MSCS/CR/819/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >21 Jun 2022</td>
+               </tr><tr >
+                   <td >
+                                   28
+                               </td><td>Revati Multi State Multipurpose Cooperative Society Ltd.,</td><td>MSCS/CR/907/2013</td><td class="city" >WEST BENGAL                                       </td> <td class="date" >2019-20</td><td >08 Jun 2022</td>
+               </tr><tr >
+                   <td >
+                                   29
+                               </td><td>Revati Multi State Multipurpose Cooperative Society Ltd.,</td><td>MSCS/CR/907/2013</td><td class="city" >WEST BENGAL                                       </td> <td class="date" >2020-21</td><td >08 Jun 2022</td>
+               </tr><tr >
+                   <td >
+                                   30
+                               </td><td>Shri renukanata Multi-State Cooperative Urban Credit Society Ltd.,</td><td>MSCS/CR/290/2008</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2021-22</td><td >08 Jun 2022</td>
+               </tr><tr >
+                   <td >
+                                   31
+                               </td><td>Sunriser Multipurpose Coopertaive Society Ltd., </td><td>MSCS/CR/916/2013</td><td class="city" >RAJASTHAN                                         </td> <td class="date" >2019-20</td><td >08 Jun 2022</td>
+               </tr><tr >
+                   <td >
+                                   32
+                               </td><td>Sunriser Multipurpose Coopertaive Society Ltd., </td><td>MSCS/CR/916/2013</td><td class="city" >RAJASTHAN                                         </td> <td class="date" >2020-21</td><td >08 Jun 2022</td>
+               </tr><tr >
+                   <td >
+                                   33
+                               </td><td>Daulat Shetkari Sakhar Karkhana Ltd.,</td><td>MSCS/CR-57/95</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >01 Jun 2022</td>
+               </tr><tr >
+                   <td >
+                                   34
+                               </td><td>Daulat Shetkari Sakhar Karkhana Ltd.,</td><td>MSCS/CR-57/95</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2019-20</td><td >01 Jun 2022</td>
+               </tr><tr >
+                   <td >
+                                   35
+                               </td><td>Daulat Shetkari Sakhar Karkhana Ltd.,</td><td>MSCS/CR-57/95</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2018-19</td><td >01 Jun 2022</td>
+               </tr><tr >
+                   <td >
+                                   36
+                               </td><td>State Bank of India Officers Association Educational Trust Staff Coop. Thrift & Credit Society Ltd.</td><td>MSCS Act/CR-20/91</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >25 May 2022</td>
+               </tr><tr >
+                   <td >
+                                   37
+                               </td><td>Baladebjew Multipurpose Multistate Cooperative Society ltd.,</td><td>MSCS/CR/959/2014</td><td class="city" >ODISHA                                           </td> <td class="date" >2020-21</td><td >10 May 2022</td>
+               </tr><tr >
+                   <td >
+                                   38
+                               </td><td>Food Corporation of India Employees' Cooperative Credit Society (NEZ) Ltd.</td><td>MSCS/CR/361/2010</td><td class="city" >ASSAM                                             </td> <td class="date" >2020-21</td><td >10 May 2022</td>
+               </tr><tr >
+                   <td >
+                                   39
+                               </td><td>Navbharat Cooperative Agro Processing Society Ltd., </td><td>MSCS/CR/224/2005</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >10 May 2022</td>
+               </tr><tr >
+                   <td >
+                                   40
+                               </td><td>Rao Saheb Patwardhan Multi State Urban Coop. Credit Society Ltd.</td><td>MSCS/CR/691/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >10 May 2022</td>
+               </tr><tr >
+                   <td >
+                                   41
+                               </td><td>Shree Om Siddhivinayak Multi State Coop. Society Ltd., </td><td>MSCS/CR/701/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >10 May 2022</td>
+               </tr><tr >
+                   <td >
+                                   42
+                               </td><td>Shri Vardhaman Multi State Cooperative Credit Society Ltd</td><td>MSCS/CR/441/2011</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >10 May 2022</td>
+               </tr><tr >
+                   <td >
+                                   43
+                               </td><td>The Railway Employees Cooperative Credit Society Limited</td><td>M</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2019-20</td><td >10 May 2022</td>
+               </tr><tr >
+                   <td >
+                                   44
+                               </td><td>Unique Swayam Multi State Multi Purpose Cooperative Society ltd., </td><td>MSCS/CR/900/2013</td><td class="city" >GUJARAT                                           </td> <td class="date" >2020-21</td><td >10 May 2022</td>
+               </tr><tr >
+                   <td >
+                                   45
+                               </td><td>Bandhan Multi State Cooperative Credit Society Ltd.,</td><td>MSCS/CR/589/2012</td><td class="city" >WEST BENGAL                                       </td> <td class="date" >2020-21</td><td >02 May 2022</td>
+               </tr><tr >
+                   <td >
+                                   46
+                               </td><td>The National Engineering Multi-Purpose Cooperative Society Ltd.</td><td>MSCS/CR/406/2011</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >02 May 2022</td>
+               </tr><tr >
+                   <td >
+                                   47
+                               </td><td>Prakram Multistate Cooperative Credit Ltd.,</td><td>MSCS/CR/794/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >27 Apr 2022</td>
+               </tr><tr >
+                   <td >
+                                   48
+                               </td><td>Symbiosis Multi State Cooperative Housing Society Ltd., </td><td>MSCS/CR/1240/2015</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2020-21</td><td >27 Apr 2022</td>
+               </tr><tr >
+                   <td >
+                                   49
+                               </td><td>Symboosis Credit Coop. Society Ltd., </td><td>MSCS/CR/515/2012</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2020-21</td><td >27 Apr 2022</td>
+               </tr><tr >
+                   <td >
+                                   50
+                               </td><td>Venkateshwara Cooperative Power and Agro Processing Ltd., </td><td>MSCS/CR/908/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >27 Apr 2022</td>
+               </tr><tr >
+                   <td >
+                                   51
+                               </td><td>Dhanashri Multi State Coop. Credit Society Ltd., </td><td>MSCS/CR/417/2011</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >12 Apr 2022</td>
+               </tr><tr >
+                   <td >
+                                   52
+                               </td><td>Natural Resources Development MultiState Cooperative Society Ltd., 309, Gaurav Adhikari Sahakari Avas Samiti Ltd., </td><td>MSCS/CR/245/2006</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2020-21</td><td >12 Apr 2022</td>
+               </tr><tr >
+                   <td >
+                                   53
+                               </td><td>State Bank of Hyderabad (SBH) Employees' Cooperative Credit Society Ltd., </td><td>MSCS/CR/373/2010</td><td class="city" >TELANGANA</td> <td class="date" >2020-21</td><td >12 Apr 2022</td>
+               </tr><tr >
+                   <td >
+                                   54
+                               </td><td>The Prakashchand Jain Multi-State Cooperative Credit Society Ltd., </td><td>MSCS/CR/284/2008</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >12 Apr 2022</td>
+               </tr><tr >
+                   <td >
+                                   55
+                               </td><td>Rehabath Cooperative House building Cociety Ltd, </td><td>MSCS/CR/1091/2014</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2018-19</td><td >30 Mar 2022</td>
+               </tr><tr >
+                   <td >
+                                   56
+                               </td><td>Sahyog Credit Coopertive Society Ltd., </td><td>MSCS/CR/711/2012</td><td class="city" >PUNJAB                                            </td> <td class="date" >2020-21</td><td >30 Mar 2022</td>
+               </tr><tr >
+                   <td >
+                                   57
+                               </td><td>State Bank of India Employees Association (Bengal Circle) Co-operative Society Limited</td><td>-107</td><td class="city" >WEST BENGAL                                       </td> <td class="date" >2020-21</td><td >30 Mar 2022</td>
+               </tr><tr >
+                   <td >
+                                   58
+                               </td><td>The Royal Lands and Nest Cooperative Housing Society Ltd., </td><td>MSCS/CR/260/2007</td><td class="city" >PONDICHERRY</td> <td class="date" >2020-21</td><td >30 Mar 2022</td>
+               </tr><tr >
+                   <td >
+                                   59
+                               </td><td>Jankalyan Multi State Mahila Cooperative Credit Society Ltd.,</td><td>MSCS/CR/454/2011</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >25 Mar 2022</td>
+               </tr><tr >
+                   <td >
+                                   60
+                               </td><td>Karmayogi S.R. Paricharak M.S. Cooperative Credit Society Ltd., </td><td>MSCS/CR/401/2011</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >25 Mar 2022</td>
+               </tr><tr >
+                   <td >
+                                   61
+                               </td><td>Sampurna Kisan Agro Farmers Cooperative Society Ltd., </td><td>MSCS/CR/1201/2015</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2019-20</td><td >25 Mar 2022</td>
+               </tr><tr >
+                   <td >
+                                   62
+                               </td><td>Vardayini Multi State Cooperative Credit Society Ltd.,</td><td>MSCS/CR/376/2010</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >25 Mar 2022</td>
+               </tr><tr >
+                   <td >
+                                   63
+                               </td><td>Rehabath Cooperative House building Cociety Ltd, </td><td>MSCS/CR/1091/2014</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2019-20</td><td >21 Mar 2022</td>
+               </tr><tr >
+                   <td >
+                                   64
+                               </td><td>Rehabath Cooperative House building Cociety Ltd, </td><td>MSCS/CR/1091/2014</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2017-18</td><td >21 Mar 2022</td>
+               </tr><tr >
+                   <td >
+                                   65
+                               </td><td>Rehabath Cooperative House building Cociety Ltd, </td><td>MSCS/CR/1091/2014</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2016-17</td><td >21 Mar 2022</td>
+               </tr><tr >
+                   <td >
+                                   66
+                               </td><td>Sampurna Kisan Agro Farmers Cooperative Society Ltd., </td><td>MSCS/CR/1201/2015</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2020-21</td><td >21 Mar 2022</td>
+               </tr><tr >
+                   <td >
+                                   67
+                               </td><td>Hariom Multistate Cooperative Credit Society Ltd., </td><td>MSCS/CR/798/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >17 Mar 2022</td>
+               </tr><tr >
+                   <td >
+                                   68
+                               </td><td>Shri Mahankali Sahahari Shakhar Karkhana Ltd</td><td>MSCS/CR/266/2008</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >17 Mar 2022</td>
+               </tr><tr >
+                   <td >
+                                   69
+                               </td><td>Golden Credit Cooperative Society Ltd., </td><td>MSCS/CR/731/2013</td><td class="city" >RAJASTHAN                                         </td> <td class="date" >2020-21</td><td >14 Mar 2022</td>
+               </tr><tr >
+                   <td >
+                                   70
+                               </td><td>Achievers Credit Cooperative Society Ltd., </td><td>MSCS/CR/732/2013</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2020-21</td><td >07 Mar 2022</td>
+               </tr><tr >
+                   <td >
+                                   71
+                               </td><td>Central Bank National Employees Co-operative Credit Society Ltd.</td><td>-57</td><td class="city" >WEST BENGAL                                       </td> <td class="date" >2020-21</td><td >07 Mar 2022</td>
+               </tr><tr >
+                   <td >
+                                   72
+                               </td><td>Om Bhoo Vikas Credit Cooperative Society Ltd.,</td><td>MSCS/CR/751/2013</td><td class="city" >CHHATTISGARH                                      </td> <td class="date" >2020-21</td><td >07 Mar 2022</td>
+               </tr><tr >
+                   <td >
+                                   73
+                               </td><td>Paradise Multistate Cooperative Housing Society Ltd., </td><td>MSCS/CR/1003/2014</td><td class="city" >NEW DELHI</td> <td class="date" >2020-21</td><td >07 Mar 2022</td>
+               </tr><tr >
+                   <td >
+                                   74
+                               </td><td>The Best & Crompton Employees Cooperative Credit Society Ltd</td><td>MSCS/CR/165/1984</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2019-20</td><td >07 Mar 2022</td>
+               </tr><tr >
+                   <td >
+                                   75
+                               </td><td>The Best & Crompton Employees Cooperative Credit Society Ltd</td><td>MSCS/CR/165/1984</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >07 Mar 2022</td>
+               </tr><tr >
+                   <td >
+                                   76
+                               </td><td>Vardaan Agriculuturists Development Cooperative Society Ltd.,</td><td>MSCS/CR/213/2005</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2020-21</td><td >03 Mar 2022</td>
+               </tr><tr >
+                   <td >
+                                   77
+                               </td><td>Dryararadha Multi State Cooperative Credit Society Ltd.,</td><td>MSCS/CR/329/2010</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2015-16</td><td >23 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   78
+                               </td><td>Shatimal Sahakari Prakriya Sanstha Ltd., </td><td>MSCS/CR/147/2002</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >23 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   79
+                               </td><td>Vaishnavi Multi State Urban Cooperative Credit Society Ltd., </td><td>MSCS/CR/402/2011</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >23 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   80
+                               </td><td>Vinayak Credit Cooperative Society Ltd., </td><td>MSCS/CR/372/2010</td><td class="city" >RAJASTHAN                                         </td> <td class="date" >2020-21</td><td >21 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   81
+                               </td><td>Pune Peoples Cooperative Bank ltd.</td><td>MSCS/CR/505/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2018-19</td><td >14 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   82
+                               </td><td>Sahayog Multistate Cooperative Credit Society ltd., </td><td>MSCS/CR/765/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2017-18</td><td >14 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   83
+                               </td><td>Sahayog Multistate Cooperative Credit Society ltd., </td><td>MSCS/CR/765/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2018-19</td><td >14 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   84
+                               </td><td>Sahayog Multistate Cooperative Credit Society ltd., </td><td>MSCS/CR/765/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2019-20</td><td >14 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   85
+                               </td><td>Sahayog Multistate Cooperative Credit Society ltd., </td><td>MSCS/CR/765/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >14 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   86
+                               </td><td>Sahayog Multistate Cooperative Credit Society ltd., </td><td>MSCS/CR/765/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2015-16</td><td >14 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   87
+                               </td><td>Sahayog Multistate Cooperative Credit Society ltd., </td><td>MSCS/CR/765/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2016-17</td><td >14 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   88
+                               </td><td>State Bank of Hyderabad (SBH) Officers Co-operative Credit Society Limited</td><td>-106</td><td class="city" >TELANGANA</td> <td class="date" >2020-21</td><td >14 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   89
+                               </td><td>The People Multi-State Coop. Credit Society Ltd., </td><td>MSCS/CR/414/2011</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >14 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   90
+                               </td><td>Chh. Rajarshishahu Multi State Cooperative Credit Society Ltd., </td><td>MSCS/CR/721/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >08 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   91
+                               </td><td>Jain Urban Multi State Cooperative Credit Society Ltd.,</td><td>MSCS/CR/464/2011-</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2019-20</td><td >08 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   92
+                               </td><td>Janshakti Multi State Multi Purpose Cooperative Society Ltd.,</td><td>MSCS/CR/562/2012</td><td class="city" >NEW DELHI</td> <td class="date" >2020-21</td><td >08 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   93
+                               </td><td>Sahkari Awas Nirman Avam Vitt Nigam Ltd</td><td>MSCS/CR/120/2001</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2017-18</td><td >08 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   94
+                               </td><td>Sahkari Awas Nirman Avam Vitt Nigam Ltd</td><td>MSCS/CR/120/2001</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2018-19</td><td >08 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   95
+                               </td><td>Shivsharda Multi State Cooperative Credit Society Ltd, </td><td>MSCS/CR/569/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >08 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   96
+                               </td><td>Shri Venkatesh Multi State Cooperative Credit Society Ltd.,</td><td>MSCS/CR/457/2011</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >08 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   97
+                               </td><td>Balaghat Multistate Cooperative Credit Society Ltd., </td><td>MSCS/CR/769/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >01 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   98
+                               </td><td>Beed Urban Multi State Cooperative Credit Society Ltd.,</td><td>MSCS/CR/525/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >01 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   99
+                               </td><td>Bharathi Inter State Fisherman Cooperative Limited, </td><td>MSCS/CR/181/2004</td><td class="city" >PONDICHERRY</td> <td class="date" >2020-21</td><td >01 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   100
+                               </td><td>Canara Bank Employees Cooperative Thrift & Credit Society Ltd</td><td>-164</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >01 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   101
+                               </td><td>EVOS Multistate Credit Cooperative Society Ltd., </td><td>MSCS/CR/736/2013</td><td class="city" >ODISHA                                           </td> <td class="date" >2019-20</td><td >01 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   102
+                               </td><td>Jain Urban Multi State Cooperative Credit Society Ltd.,</td><td>MSCS/CR/464/2011-</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >01 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   103
+                               </td><td>Kallappanna Awade Cooperative Industrial Estate & Integrated Textile Park Ltd</td><td>MSCS/CR/1257/2016</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >01 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   104
+                               </td><td>Metro Multi State Cooperative Housing society Ltd., </td><td>MSCS/CR/1070/2014</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >01 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   105
+                               </td><td>Omkar Urban Multi State Cooperative Credit Society Ltd.,</td><td>MSCS/CR/579/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >01 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   106
+                               </td><td>Pratik Urban Agro Multi State Cooperative Society Ltd</td><td>MSCS/CR/1182/2015</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >01 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   107
+                               </td><td>Pratik Urban Agro Multi State Cooperative Society Ltd</td><td>MSCS/CR/1182/2015</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2019-20</td><td >01 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   108
+                               </td><td>Rajarshi Shahu Maharaj Multi State urban Cooperative Credit Society Ltd., </td><td>MSCS/CR/561/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2019-20</td><td >01 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   109
+                               </td><td>Yashashri Multi State Cooperative Credit Society Ltd., </td><td>MSCS/CR/709/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >01 Feb 2022</td>
+               </tr><tr >
+                   <td >
+                                   110
+                               </td><td>The State Bank of India Staff Association Thrift & Credit Cooperative Society ltd., </td><td>MSCS/CR/76/98</td><td class="city" >ASSAM                                             </td> <td class="date" >2020-21</td><td >31 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   111
+                               </td><td>Cooperative Store Ltd., </td><td>MSCS/CR-59/95</td><td class="city" >NEW DELHI</td> <td class="date" >2020-21</td><td >28 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   112
+                               </td><td>Sai Amrut Multi state Cooperative Milk Society Ltd., </td><td>MSCS/CR/622/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >21 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   113
+                               </td><td>Shrisai Multi State Cooperative Credit Society Ltd.,</td><td>MSCS/CR/482/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >21 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   114
+                               </td><td>Dryararadha Multi State Cooperative Credit Society Ltd.,</td><td>MSCS/CR/329/2010</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >14 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   115
+                               </td><td>Mahaveer Jain Multi State Cooperative Credit Society Ltd</td><td>MSCS/CR/570/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >14 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   116
+                               </td><td>Shri Padmavati Mata Multi State Cooperative Credit Society Ltd.,</td><td>MSCS/CR/619/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >14 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   117
+                               </td><td>Shri Sai Multi State Cooperative Agricultural Society Ltd., </td><td>MSCS/CR/386/2011</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >14 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   118
+                               </td><td>Trimurti Multi State Urban Cooperative Credit Society Ltd., </td><td>MSCS/CR/590/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >14 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   119
+                               </td><td>Hutatma Sahakari Dudha Uptpadak Sangh Maryadit, </td><td>MSCS/CR/67/97</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >10 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   120
+                               </td><td>Indian Oil Employees Welfare Co-perative Society Limited</td><td>-77</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >10 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   121
+                               </td><td>Sant Kabir Multi state Cooperative Credit Society Ltd., </td><td>MSCS/CR/633/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >10 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   122
+                               </td><td>Yaadgaar Multi State Cooperative Group Housing Society Ltd., </td><td>MSCS/CR/1228/2015</td><td class="city" >NEW DELHI</td> <td class="date" >2020-21</td><td >10 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   123
+                               </td><td>Eden Multi State Coop. Credit Society Ltd., </td><td>MSCS/CR/679/2012</td><td class="city" >RAJASTHAN                                         </td> <td class="date" >2020-21</td><td >06 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   124
+                               </td><td>Konkan Railway Region(Urban) Cooperative Credit Society, </td><td>MSCS/CR/102/2000</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2019-20</td><td >06 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   125
+                               </td><td>Lotus Agricultural and Marketing Cooperative Society Ltd.,</td><td>MSCS/CR/608/2012</td><td class="city" >NEW DELHI</td> <td class="date" >2020-21</td><td >06 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   126
+                               </td><td>Sri Pragathi Multi Purpose Multi State Cooperative Society Ltd</td><td>MSCS/CR/722/2012</td><td class="city" >TELANGANA</td> <td class="date" >2020-21</td><td >06 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   127
+                               </td><td>Suvarnaratna Multi State Cooperative Credit Society Ltd.,</td><td>MSCS/CR/546/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >06 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   128
+                               </td><td>Uttar pradesh Cooperative Processing and Cold Storages Federation ltd.,</td><td>MSCS/CR/123/2001</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2020-21</td><td >06 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   129
+                               </td><td>Alamprabhu Urban Multi state Cooperative Credit Society Ltd.,</td><td>MSCS/CR/635/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >04 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   130
+                               </td><td>Himalaya Multistate Cooperative Housing Society Ltd., </td><td>MSCS/CR/822/2013</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >04 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   131
+                               </td><td>Lokkalyan Multi State Credit Coop. Society ltd.,</td><td>MSCS/CR/702/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >04 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   132
+                               </td><td>Mahaveer Jain Multi State Cooperative Credit Society Ltd</td><td>MSCS/CR/570/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2019-20</td><td >04 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   133
+                               </td><td>Police officers Multi State Cooperative Housing Society Ltd., </td><td>MSCS/CR/168/2003</td><td class="city" >NEW DELHI</td> <td class="date" >2019-20</td><td >04 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   134
+                               </td><td>Revanta Multistate Cooperative Group Housing Society Ltd., </td><td>MSCS/CR/1049/2014</td><td class="city" >NEW DELHI</td> <td class="date" >2018-19</td><td >04 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   135
+                               </td><td>Revanta Multistate Cooperative Group Housing Society Ltd., </td><td>MSCS/CR/1049/2014</td><td class="city" >NEW DELHI</td> <td class="date" >2019-20</td><td >04 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   136
+                               </td><td>Revanta Multistate Cooperative Group Housing Society Ltd., </td><td>MSCS/CR/1049/2014</td><td class="city" >NEW DELHI</td> <td class="date" >2020-21</td><td >04 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   137
+                               </td><td>Sai Amrut Multi state Cooperative Milk Society Ltd., </td><td>MSCS/CR/622/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2018-19</td><td >04 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   138
+                               </td><td>Sanman Multistate Cooperative Milk Producer & Processors Ltd.</td><td>MSCS/CR/830/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >04 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   139
+                               </td><td>Sanman Multistate Cooperative Milk Producer & Processors Ltd.</td><td>MSCS/CR/830/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2019-20</td><td >04 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   140
+                               </td><td>Sanman Multistate Cooperative Milk Producer & Processors Ltd.</td><td>MSCS/CR/830/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2018-19</td><td >04 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   141
+                               </td><td>Shri Chhatrapati Shahu Krushi Sahakari Kharedi Vikri Society Ltd., </td><td>MSCS/CR/356/2010</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >04 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   142
+                               </td><td>State Bank of Hyderabad (SBH) Officers Co-operative Credit Society Limited</td><td>-106</td><td class="city" >TELANGANA</td> <td class="date" >2019-20</td><td >04 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   143
+                               </td><td>Uttamnagar Urban Multi State Coopertive Credit Society Ltd., </td><td>MSCS/CR/627/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >04 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   144
+                               </td><td>Yasodeep Multistate Urban Cooperative Credit Society ltd., </td><td>MSCS/CR/758/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >04 Jan 2022</td>
+               </tr><tr >
+                   <td >
+                                   145
+                               </td><td>Evershine Multipurpose Coopertaive Society Ltd.,</td><td>MSCS/CR/776/2013</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >31 Dec 2021</td>
+               </tr><tr >
+                   <td >
+                                   146
+                               </td><td>Gajanan Multi State Cooperative Credit Society ltd.,</td><td>MSCS/CR/512/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2018-19</td><td >31 Dec 2021</td>
+               </tr><tr >
+                   <td >
+                                   147
+                               </td><td>Gajanan Multi State Cooperative Credit Society ltd.,</td><td>MSCS/CR/512/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2019-20</td><td >31 Dec 2021</td>
+               </tr><tr >
+                   <td >
+                                   148
+                               </td><td>Gurupadappa Nagmarpolli Multi super speciality Cooperative Hospital and Research Centre Ltd., </td><td>MSCS/CR/933/2014</td><td class="city" >KARNATAKA                                         </td> <td class="date" >2018-19</td><td >31 Dec 2021</td>
+               </tr><tr >
+                   <td >
+                                   149
+                               </td><td>Jankalyan Multi state Cooperative Credit Society ltd., </td><td>MSCS/CR/503/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >31 Dec 2021</td>
+               </tr><tr >
+                   <td >
+                                   150
+                               </td><td>Hindustan Petroleum Corporation Employees Co-operative Society Ltd.</td><td>MSCS</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >27 Dec 2021</td>
+               </tr><tr >
+                   <td >
+                                   151
+                               </td><td>Prayag Multistate Cooperative Credit Society Ltd., </td><td>MSCS/CR/785/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2019-20</td><td >27 Dec 2021</td>
+               </tr><tr >
+                   <td >
+                                   152
+                               </td><td>IDBI Staff Cooperative Credit Society Ltd</td><td>-74</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >22 Dec 2021</td>
+               </tr><tr >
+                   <td >
+                                   153
+                               </td><td>Kokan Mercantile Cooperative Bank Ltd, </td><td>MSCS/CR/91/99</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >22 Dec 2021</td>
+               </tr><tr >
+                   <td >
+                                   154
+                               </td><td>The Jain Sahkari Bank Ltd,</td><td>-4</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >22 Dec 2021</td>
+               </tr><tr >
+                   <td >
+                                   155
+                               </td><td>Manorama Multi State Coop. Credit Society Ltd.,</td><td>MSCS/CR/420/2011</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >14 Dec 2021</td>
+               </tr><tr >
+                   <td >
+                                   156
+                               </td><td>Panchawati Multi state Cooperative Credit Society ltd., </td><td>MSCS/CR/642/2012</td><td class="city" >KARNATAKA                                         </td> <td class="date" >2018-19</td><td >14 Dec 2021</td>
+               </tr><tr >
+                   <td >
+                                   157
+                               </td><td>Panchawati Multi state Cooperative Credit Society ltd., </td><td>MSCS/CR/642/2012</td><td class="city" >KARNATAKA                                         </td> <td class="date" >2019-20</td><td >14 Dec 2021</td>
+               </tr><tr >
+                   <td >
+                                   158
+                               </td><td>Panchawati Multi state Cooperative Credit Society ltd., </td><td>MSCS/CR/642/2012</td><td class="city" >KARNATAKA                                         </td> <td class="date" >2020-21</td><td >14 Dec 2021</td>
+               </tr><tr >
+                   <td >
+                                   159
+                               </td><td>The Canara Bank Karmchari Sahakari Sanstha Ltd., </td><td>MSCS/CR/112/2000</td><td class="city" >KARNATAKA                                         </td> <td class="date" >2020-21</td><td >14 Dec 2021</td>
+               </tr><tr >
+                   <td >
+                                   160
+                               </td><td>Anand Fishing Coooperative Society Ltd., </td><td>MSCS/CR/920/2014</td><td class="city" >WEST BENGAL                                       </td> <td class="date" >2020-21</td><td >07 Dec 2021</td>
+               </tr><tr >
+                   <td >
+                                   161
+                               </td><td>Chennai Annanagar Co-operative Housing Society Limited,</td><td>MSCS/CR/1219/2015</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >07 Dec 2021</td>
+               </tr><tr >
+                   <td >
+                                   162
+                               </td><td>Janta Raja Multi State Coopertive Credit Society Ltd., </td><td>MSCS/CR/752/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2017-18</td><td >07 Dec 2021</td>
+               </tr><tr >
+                   <td >
+                                   163
+                               </td><td>Janta Raja Multi State Coopertive Credit Society Ltd., </td><td>MSCS/CR/752/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2018-19</td><td >07 Dec 2021</td>
+               </tr><tr >
+                   <td >
+                                   164
+                               </td><td>Kashi Gomti Agro Farmers Cooperative Society Ltd., </td><td>MSCS/CR/1221/2015</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2019-20</td><td >07 Dec 2021</td>
+               </tr><tr >
+                   <td >
+                                   165
+                               </td><td>Malinagar Multistate Credit Cooperative Society Ltd., </td><td>MSCS/CR/760/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >07 Dec 2021</td>
+               </tr><tr >
+                   <td >
+                                   166
+                               </td><td>Bihar State handloom Weavers Cooperative Union Ltd (BISHCOTEX)</td><td>MSCS/CR/1297/2020</td><td class="city" >BIHAR                                             </td> <td class="date" >2020-21</td><td >02 Dec 2021</td>
+               </tr><tr >
+                   <td >
+                                   167
+                               </td><td>The Food Corporation of India (South Region) Employees Coop. Society</td><td>MSCS Act/CR-23/92</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >02 Dec 2021</td>
+               </tr><tr >
+                   <td >
+                                   168
+                               </td><td>Aasra Cooperative Credit Society ltd.,</td><td>MSCS/CR/115/2000</td><td class="city" >NEW DELHI</td> <td class="date" >2020-21</td><td >29 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   169
+                               </td><td>Al-Khair Cooperative Credit Society Ltd., </td><td>MSCS/CR/136/2002</td><td class="city" >BIHAR                                             </td> <td class="date" >2020-21</td><td >29 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   170
+                               </td><td>Bharat Petroleum  Employees Co-operative Society Ltd.</td><td>-53</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >29 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   171
+                               </td><td>Dhanmudra Urban Multi-state Co-operative Credit Society Ltd</td><td>MSCS/CR/1169/2015</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >29 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   172
+                               </td><td>Dr. Babasaheb Ambedkar Multi State Cooperative Credit Society Ltd., </td><td>MSCS/CR/484/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >29 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   173
+                               </td><td>Family Development Cooperative Thrift and Credit Solciety Ltd., </td><td>MSCS/CR/307/2009</td><td class="city" >PONDICHERRY</td> <td class="date" >2020-21</td><td >29 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   174
+                               </td><td>Nagpur Nagarik Sahakari Bank Ltd., </td><td>MSCS/CR/126/2001</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >29 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   175
+                               </td><td>Samruddhi Multi State Cooperative Credit Society Ltd.,</td><td>MSCS/CR/375/2010</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >29 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   176
+                               </td><td>State Bank of India Officers Cooperative Thrift and Credit Society Ltd.</td><td>-108</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >29 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   177
+                               </td><td>The Doordarshan and Maintenance Centre Employees Multi State Cooperative Thrift & Credit Society Ltd., </td><td>MSCS/CR/1209/2015</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >29 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   178
+                               </td><td>The Hyderabad Cooperative Central Trading Society Ltd</td><td>-168</td><td class="city" >TELANGANA</td> <td class="date" >2020-21</td><td >26 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   179
+                               </td><td>Gurupadappa Nagmarpolli Multi super speciality Cooperative Hospital and Research Centre Ltd., </td><td>MSCS/CR/933/2014</td><td class="city" >KARNATAKA                                         </td> <td class="date" >2020-21</td><td >24 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   180
+                               </td><td>National Cooperative Consumers Federation Limited</td><td>-27</td><td class="city" >NEW DELHI</td> <td class="date" >2020-21</td><td >24 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   181
+                               </td><td>National Federation of Urban Cooperative Banks and Credit Societies Ltd. NAFCUB</td><td>-19</td><td class="city" >NEW DELHI</td> <td class="date" >2020-21</td><td >24 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   182
+                               </td><td>Shivprasad Multistate Sahakari Dudh Utpadak Sangh ltd., </td><td>MSCS/CR/782/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2019-20</td><td >24 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   183
+                               </td><td>Shivprasad Multistate Sahakari Dudh Utpadak Sangh ltd., </td><td>MSCS/CR/782/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2018-19</td><td >24 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   184
+                               </td><td>Shivprasad Multistate Sahakari Dudh Utpadak Sangh ltd., </td><td>MSCS/CR/782/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2017-18</td><td >24 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   185
+                               </td><td>Shivshakti Multi State Cooperative Credit Society Ltd., </td><td>MSCS/CR/578/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >24 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   186
+                               </td><td>The South India Gramin Dak Sevak Multi-State Cooperative Thrift & Credit Society Ltd</td><td>MSCS/CR/232/2005</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2019-20</td><td >24 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   187
+                               </td><td>USB Credit Cooperative Society Ltd.,</td><td>MSCS/CR/714/2013</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2020-21</td><td >24 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   188
+                               </td><td>Yogeshwari Multi State Coop. Credit Society Ltd., </td><td>MSCS/CR/688/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >24 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   189
+                               </td><td>Buldana Urban Cooperative Credit Society Ltd., </td><td>MSCS/CR/267/2008</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >23 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   190
+                               </td><td>Rose Malar Developmental Cooperative Society Ltd., </td><td>MSCS/CR/291/2008</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >22 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   191
+                               </td><td>Shri Bhairvnath Multi State Cooperative Credit Society Ltd., </td><td>MSCS/CR/323/2009</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >22 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   192
+                               </td><td>State Bank of India(Bhopal Circle), Adhikari Sahkari Sakh Samiti Maryadit</td><td>MSCS/CR/132/2001</td><td class="city" >MADHYA PRADESH                                    </td> <td class="date" >2020-21</td><td >22 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   193
+                               </td><td>Thrift Cooperative Federation Ltd., </td><td>MSCS/CR/62/96</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >22 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   194
+                               </td><td>Adarsh Multi State Coop. Credit Society Ltd., </td><td>MSCS/CR/689/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >16 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   195
+                               </td><td>Bhartiya Farmers' Agro Business Development Cooperative Ltd.,</td><td>MSCS/CR/475/2011</td><td class="city" >NAGALAND                                          </td> <td class="date" >2019-20</td><td >16 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   196
+                               </td><td>Janseva Cooperative Credit Society Ltd., </td><td>MSCS/CR/335/2010</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >16 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   197
+                               </td><td>Mahananda Multi State Urban Cooperative Credit Society </td><td>MSCS/CR/355/2010</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >16 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   198
+                               </td><td>Mahesh Urban Multi State Coopertive Credit Society Ltd.</td><td>MSCS/CR/539/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >16 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   199
+                               </td><td>Multi State Agri-Horticultural Developement Cooperative Society Ltd.</td><td>MSCS/CR/468/2011</td><td class="city" >KERALA                                            </td> <td class="date" >2020-21</td><td >16 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   200
+                               </td><td>N.Sai Multi State Cooperative Credit Society Ltd., </td><td>MSCS/CR/598/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >16 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   201
+                               </td><td>New India Cooperative Bank Ltd., </td><td>MSCS/CR/95/99</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >16 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   202
+                               </td><td>Progressive Cooperative Credit Society ltd.,</td><td>MSCS/CR/443/2011</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2020-21</td><td >16 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   203
+                               </td><td>Shri Mahaganesh Multi State Urban Coopertive Credit Society Ltd., </td><td>MSCS/CR/654/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >16 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   204
+                               </td><td>Shri Panchmukhi Hanuman Multi State Cooperative Credit Society Ltd.,</td><td>MSCS/CR/600/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >16 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   205
+                               </td><td>Triumph Multi State Cooperative Credit Society Ltd., </td><td>MSCS/CR/377/2010</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >16 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   206
+                               </td><td>Udaygiri Multistate Cooperative Credit Society Ltd., </td><td>MSCS/CR/807/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >16 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   207
+                               </td><td>Birsa Munda Multi State Cooperative Ltd.,</td><td>MSCS/CR/308/2009</td><td class="city" >JHARKHAND                                         </td> <td class="date" >2020-21</td><td >15 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   208
+                               </td><td>Jaihind Multi State Cooperative Credit Society Ltd., </td><td>MSCS/CR/663/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2016-17</td><td >15 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   209
+                               </td><td>Mahalakshmi Multistate Cooperative Group Housing Society Ltd., </td><td>MSCS/CR/992/2014</td><td class="city" >NEW DELHI</td> <td class="date" >2019-20</td><td >15 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   210
+                               </td><td>Malankara Multi-State Cooperative Credit Society Ltd., </td><td>MSCS/CR/297/2008</td><td class="city" >KERALA                                            </td> <td class="date" >2017-18</td><td >15 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   211
+                               </td><td>Shri Dattatray Urban Multi State Cooperative Credit Society Ltd.,</td><td>MSCS/CR/1237/2015</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2017-18</td><td >15 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   212
+                               </td><td>Ajinkya Uttamrao Autade Multi State Cooperative Credit Society Ltd., </td><td>MSCS/CR/774/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >11 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   213
+                               </td><td>Ajinkya Uttamrao Autade Multi State Cooperative Credit Society Ltd., </td><td>MSCS/CR/774/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2019-20</td><td >11 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   214
+                               </td><td>General Insurance Corporation Employees Co-operative Thrift & Credit Society Ltd.</td><td>-66</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >10 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   215
+                               </td><td>Karmaveer Bhaurao patil Zilla Sahakari Partisthan Maryadit,</td><td>MSCS/CR/805/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >10 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   216
+                               </td><td>Mahindra & Mahindra Coop Credit Society Ltd., </td><td>MSCS/CR-60/96</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >10 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   217
+                               </td><td>Shri Shiddhi Vinayak Multi State Coop. Credit Society Ltd., </td><td>MSCS/CR/435/2011</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >10 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   218
+                               </td><td>The New India Assurance Employees Co-operative Thrift & Credit Society Ltd.</td><td>-127</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >10 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   219
+                               </td><td>National Insurance Vimosewa Coopertive Ltd., </td><td>MSCS/CR/311/2009</td><td class="city" >GUJARAT                                           </td> <td class="date" >2020-21</td><td >09 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   220
+                               </td><td>Oil & Natural Gas Commission Employees Coop. Credit Society Ltd</td><td>MSCS/CR-29/92</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >09 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   221
+                               </td><td>Shree Satyam Credit Cooperative Society Ltd.,</td><td>MSCS/CR/800/2013</td><td class="city" >RAJASTHAN                                         </td> <td class="date" >2020-21</td><td >09 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   222
+                               </td><td>Indian Diversified & Sustainable Agricultrue Cooperative Ltd., </td><td>MSCS/CR/395/2011</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2020-21</td><td >08 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   223
+                               </td><td>Lok Manya Multi Purpose Cooperative Society Ltd. </td><td>MSCS/CR/140/2002</td><td class="city" >KARNATAKA                                         </td> <td class="date" >2020-21</td><td >08 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   224
+                               </td><td>Lokmangal Multi-State Cooperative Society Ltd</td><td>MSCS/CR/216/2005</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2019-20</td><td >08 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   225
+                               </td><td>National Federation of Farmers&amp;#39; procurement , Processing and Retailing Cooperative of India Ltd.</td><td>MSCS/CR/320/2009</td><td class="city" >NEW DELHI</td> <td class="date" >2020-21</td><td >08 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   226
+                               </td><td>Rupamata Multi State Cooperative Credit Society Ltd., </td><td>MSCS/CR/489/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2019-20</td><td >08 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   227
+                               </td><td>Rupamata Multi State Cooperative Credit Society Ltd., </td><td>MSCS/CR/489/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >08 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   228
+                               </td><td>Sadbhav Consumers Multi State Cooperative Society Ltd., </td><td>MSCS/CR/673/2012</td><td class="city" >GUJARAT                                           </td> <td class="date" >2020-21</td><td >08 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   229
+                               </td><td>Sumanglam Multi State Credit Cooperative Society Ltd., </td><td>MSCS/CR/472/2011</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2020-21</td><td >08 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   230
+                               </td><td>Green Earth Agro Cooperative Society Ltd</td><td>MSCS/CR/1286/2019</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2020-21</td><td >01 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   231
+                               </td><td>Swapnavedh Multi State Cooperative Credit Society Ltd., </td><td>MSCS/CR/740/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >01 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   232
+                               </td><td>Swapnavedh Multi State Cooperative Credit Society Ltd., </td><td>MSCS/CR/740/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2019-20</td><td >01 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   233
+                               </td><td>Swapnavedh Multi State Cooperative Credit Society Ltd., </td><td>MSCS/CR/740/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2018-19</td><td >01 Nov 2021</td>
+               </tr><tr >
+                   <td >
+                                   234
+                               </td><td>Apna Sahakari bank Ltd.,</td><td>MSCS/CR/816/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >28 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   235
+                               </td><td>C.A.D & A.A.I Employees Cooperative Credit Society Ltd</td><td>-162</td><td class="city" >WEST BENGAL                                       </td> <td class="date" >2020-21</td><td >28 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   236
+                               </td><td>ESAF Swasraja Multi State Cooperative Credit Society Ltd.,</td><td>MSCS/CR/442/2011</td><td class="city" >KERALA                                            </td> <td class="date" >2020-21</td><td >28 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   237
+                               </td><td>Indian Co-operative Network for Women Ltd., (formerly known as Working Women's Coop. Society Ltd.,)</td><td>MSCS/CR-45/94</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >28 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   238
+                               </td><td>Reserve Bank Officers Cooperative Credit Society Limited</td><td>-133</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >28 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   239
+                               </td><td>Sai Aadarsh Multi State Cooperative Credit Society Ltd., </td><td>MSCS/CR/753/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >28 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   240
+                               </td><td>The Railway Employees Cooperative Credit Society Limited</td><td>M</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >28 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   241
+                               </td><td>Pragati Pariwar Credit Cooperative Society Ltd., </td><td>MSCS/CR/559/2012</td><td class="city" >JHARKHAND                                         </td> <td class="date" >2020-21</td><td >26 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   242
+                               </td><td>The South India Gramin Dak Sevak Multi-State Cooperative Thrift & Credit Society Ltd</td><td>MSCS/CR/232/2005</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >26 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   243
+                               </td><td>The UCO Bank Employees Coop. Thrift & Credit Society,</td><td>MSCS/CR-42/94</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >26 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   244
+                               </td><td>Abhyudaya Cooperative Bank Ltd., </td><td>MSCS/CR/249/2007</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >25 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   245
+                               </td><td>Chidanand Basaprabhu Kore Sahakari Sakkare Karkhane Niyamit, Chikodi</td><td>MSCS/CR/240/2006</td><td class="city" >KARNATAKA                                         </td> <td class="date" >2020-21</td><td >25 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   246
+                               </td><td>Defence Accounts (Fys.) Cooperative Society Ltd.</td><td>-61</td><td class="city" >WEST BENGAL                                       </td> <td class="date" >2020-21</td><td >25 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   247
+                               </td><td>Hriday Credit & Cooperative Society Ltd., </td><td>MSCS/CR/352/2010</td><td class="city" >RAJASTHAN                                         </td> <td class="date" >2020-21</td><td >25 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   248
+                               </td><td>Kisanmitra Multi State Coop. Credit Society Ltd., </td><td>MSCS/CR/717/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >25 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   249
+                               </td><td>Kisanmitra Multi State Coop. Credit Society Ltd., </td><td>MSCS/CR/717/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2019-20</td><td >25 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   250
+                               </td><td>Petrofils Cooperative Ltd.</td><td>-24</td><td class="city" >GUJARAT                                           </td> <td class="date" >2020-21</td><td >25 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   251
+                               </td><td>Ramraja Multi state Agro Cooperative Society ltd.</td><td>MSCS/CR/1302/2020</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2020-21</td><td >25 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   252
+                               </td><td>The Agri Allied & Consumer Cooperative Federation  Ltd</td><td>MSCS/CR/1121/2014</td><td class="city" >NEW DELHI</td> <td class="date" >2020-21</td><td >25 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   253
+                               </td><td>The Best Cooperative Group Housing Society Ltd., </td><td>MSCS/CR/864/2013</td><td class="city" >NEW DELHI</td> <td class="date" >2020-21</td><td >25 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   254
+                               </td><td>The Farmers Agro Coop. Marketing & Efficient Supply Society Ltd</td><td>-39</td><td class="city" >NEW DELHI</td> <td class="date" >2020-21</td><td >25 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   255
+                               </td><td>Udgir Janata Multi State Cooperative Credit Society Ltd., </td><td>MSCS/CR/599/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >25 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   256
+                               </td><td>Vardaan Agriculuturists Development Cooperative Society Ltd.,</td><td>MSCS/CR/213/2005</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2018-19</td><td >25 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   257
+                               </td><td>Vardaan Agriculuturists Development Cooperative Society Ltd.,</td><td>MSCS/CR/213/2005</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2019-20</td><td >25 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   258
+                               </td><td>Vardaan Agriculuturists Development Cooperative Society Ltd.,</td><td>MSCS/CR/213/2005</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2017-18</td><td >25 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   259
+                               </td><td>Nagar Urban Cooperative Bank Ltd.,</td><td>MSCS/CR/804/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >22 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   260
+                               </td><td>Shri Sidharaj UrbanMulti State Cooperative Credit Society Ltd., </td><td>MSCS/CR/609/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >22 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   261
+                               </td><td>Suvarnkranti Multi State Urban Cooperative Credit Society Ltd., </td><td>MSCS/CR/560/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2019-20</td><td >22 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   262
+                               </td><td>Suvarnkranti Multi State Urban Cooperative Credit Society Ltd., </td><td>MSCS/CR/560/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2018-19</td><td >22 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   263
+                               </td><td>Suvarnkranti Multi State Urban Cooperative Credit Society Ltd., </td><td>MSCS/CR/560/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2017-18</td><td >22 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   264
+                               </td><td>Suvarnkranti Multi State Urban Cooperative Credit Society Ltd., </td><td>MSCS/CR/560/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2016-17</td><td >22 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   265
+                               </td><td>The Shamrao Vithal Co-operative Bank Ltd. / SVC Cooperative Bank Limited</td><td>-7</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >22 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   266
+                               </td><td>Hindustan Labour MultiState Cooperative Society Ltd., </td><td>MSCS/CR/677/2012</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2020-21</td><td >20 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   267
+                               </td><td>Jai Vaibhav Laxmi multi State Coopertive Credit Society ltd., </td><td>MSCS/CR/527/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >20 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   268
+                               </td><td>National Agriculture Multi State Cooperative of India Ltd., </td><td>MSCS/CR/438/2011</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2020-21</td><td >20 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   269
+                               </td><td>Navhind Cooperative Credit Society Ltd., </td><td>MSCS/CR/258/2007</td><td class="city" >KARNATAKA                                         </td> <td class="date" >2020-21</td><td >20 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   270
+                               </td><td>Shree Datta Shetkari Sahakari Sakhar Karkhana Ltd.</td><td>100</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >20 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   271
+                               </td><td>Swar India Credit Cooperative Socity Ltd., </td><td>MSCS/CR/455/2011</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2019-20</td><td >20 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   272
+                               </td><td>Thamarai Technical Organised Workers Cooperative Society Ltd, </td><td>MSCS/CR/1118/2014</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2018-19</td><td >20 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   273
+                               </td><td>Thamarai Technical Organised Workers Cooperative Society Ltd, </td><td>MSCS/CR/1118/2014</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2019-20</td><td >20 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   274
+                               </td><td>Thamarai Technical Organised Workers Cooperative Society Ltd, </td><td>MSCS/CR/1118/2014</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >20 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   275
+                               </td><td>The Ajara Urban Cooperative Bank Limited</td><td>MSCS/CR/1270/2017</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >20 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   276
+                               </td><td>The Goa State Co-operative Bank Ltd</td><td>-14</td><td class="city" >GOA</td> <td class="date" >2020-21</td><td >20 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   277
+                               </td><td>The Simpson & Group Companies Employee's Coop. Society Ltd.</td><td>MSCS Act/CR-14/91</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >20 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   278
+                               </td><td>Uttar Pradesh Bank Employees' Credit Cooperative Society Ltd.,</td><td>MSCS/CR/324/2009</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2020-21</td><td >20 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   279
+                               </td><td>Vitthal Rao Shinde Sahakari Sahkar Karkhana Ltd</td><td>MSCS/CR/1301/2020</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >20 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   280
+                               </td><td>NABARD Employees Cooperative Credit Socierty Ltd.,</td><td>MSCS/CR/625/2012</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2020-21</td><td >13 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   281
+                               </td><td>Shikshan Maharashi Dnyandev Mohekar Multi State Cooperative Credit Society Ltd.,</td><td>MSCS/CR/565/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >13 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   282
+                               </td><td>Shubhamangal Multistate Cooperative Credit Society Ltd., </td><td>MSCS/CR/799/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >13 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   283
+                               </td><td>State Bank of India Staff Co-operative Society Limited</td><td>-109</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >13 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   284
+                               </td><td>The Indian Medical Practioners Co-op. Pharmacy & Stores Ltd.</td><td>-123</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >13 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   285
+                               </td><td>A.P. Mahesh Cooperative  Urban Bank Ltd.</td><td>MSCS/CR/128/2001</td><td class="city" >ANDHRA PRADESH                                    </td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   286
+                               </td><td>Agriculture Regenration Multi State Cooperative Society Ltd</td><td>MSCS/CR/1250/2015</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   287
+                               </td><td>All India Handloom Fabrics Marketing  Cooperative Society Limited</td><td>-21</td><td class="city" >NEW DELHI</td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   288
+                               </td><td>Bharati Sahakari Bank Ltd., </td><td>MSCS/CR-87/99</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   289
+                               </td><td>Central PWD Employees Coop. Thrift & Credit Society</td><td>MSCS Act/CR-21/91</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   290
+                               </td><td>CITIZENCREDIT Cooperative Bank Ltd., </td><td>MSCS/CR/75/98</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   291
+                               </td><td>Divine Grace Green Farming and Marketing Multi State Cooperative Society Ltd., </td><td>MSCS/CR/256/2007</td><td class="city" >GUJARAT                                           </td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   292
+                               </td><td>Gopinath Patil Parsik Janata Sahakari Bank Ltd,  G P Parsik Bank Ltd</td><td>MSCS/CR/1213/2015</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   293
+                               </td><td>Grameen Development Multistate Agro Purpose Coopertaive Society ltd., </td><td>MSCS/CR/1013/2014</td><td class="city" >KARNATAKA                                         </td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   294
+                               </td><td>HP Employees Co-operative Credit Society Ltd.</td><td>-43</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   295
+                               </td><td>Humara India Credit Cooperative Society Ltd.,</td><td>MSCS/CR/594/2012</td><td class="city" >WEST BENGAL                                       </td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   296
+                               </td><td>Janata Sahakari Bank Ltd., </td><td>MSCS/CR/509/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   297
+                               </td><td>Jivan Multistate Agro Purpose Cooperative Society Ltd., </td><td>MSCS/CR/982/2014</td><td class="city" >NEW DELHI</td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   298
+                               </td><td>Kallapunna Awade Ichalkaranji Janata Sahakari Bank ltd.,</td><td>MSCS/CR/437/2011</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   299
+                               </td><td>Kulak Agro Cooperative Society Ltd., </td><td>MSCS/CR/1227/2015</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   300
+                               </td><td>LDC Multi State Cooperative Credit Society Ltd., </td><td>MSCS/CR/604/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   301
+                               </td><td>Mahaganpati Multi state Cooperative Credit Society Ltd.,</td><td>MSCS/CR/624/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   302
+                               </td><td>Mahaganpati Multi state Cooperative Credit Society Ltd.,</td><td>MSCS/CR/624/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2018-19</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   303
+                               </td><td>Mangalnath Multi State Agro Cooperative Society Ltd, </td><td>MSCS/CR/1089/2014</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   304
+                               </td><td>Rubber Marketing and Processing Cooperative Ltd., Belthangedy Taluk Rubber Growers Marketing & processing Society Ltd., </td><td>MSCS/CR/78/98</td><td class="city" >KARNATAKA                                         </td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   305
+                               </td><td>Sairaj Multistate Cooperative Credit Society Ltd., </td><td>MSCS/CR/801/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   306
+                               </td><td>Sanmati Sahakari Bank Ltd</td><td>MSCS/CR/1282/2018</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   307
+                               </td><td>Shiva Ashray Multi State Cooperative Group Housing Society Ltd.,</td><td>MSCS/CR/1092/2014</td><td class="city" >NEW DELHI</td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   308
+                               </td><td>Shiva Ashray Multi State Cooperative Group Housing Society Ltd.,</td><td>MSCS/CR/1092/2014</td><td class="city" >NEW DELHI</td> <td class="date" >2018-19</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   309
+                               </td><td>Shiva Ashray Multi State Cooperative Group Housing Society Ltd.,</td><td>MSCS/CR/1092/2014</td><td class="city" >NEW DELHI</td> <td class="date" >2019-20</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   310
+                               </td><td>Shiva Ashray Multi State Cooperative Group Housing Society Ltd.,</td><td>MSCS/CR/1092/2014</td><td class="city" >NEW DELHI</td> <td class="date" >2017-18</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   311
+                               </td><td>Shree Siddheshwar Sahakari Sakhar Karkhana Ltd</td><td>MSCS/CR/1258/2016</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   312
+                               </td><td>Shri Veershaiv Cooperative Bank Ltd,</td><td>MSCS/CR/1259/2016</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   313
+                               </td><td>Shrisanjiwani Multi State Cooperative Credit Society Ltd., </td><td>MSCS/CR/626/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   314
+                               </td><td>Surya Multistate Agro Purpose Cooperative Society ltd., </td><td>MSCS/CR/1046/2014</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   315
+                               </td><td>The Eastern Railway Employees Cooperative Bank Limited (Eastern & North East Frontier Railway Employees Co-operative Bank Ltd.)</td><td>-1</td><td class="city" >WEST BENGAL                                       </td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   316
+                               </td><td>The Kalyan Janata Sahakari Bank Ltd</td><td>MSCS/CR/1272/2017</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   317
+                               </td><td>Tumkur Merchants Credit Cooperative Limited</td><td>MSCS/CR/1130/2014</td><td class="city" >KARNATAKA                                         </td> <td class="date" >2020-21</td><td >11 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   318
+                               </td><td>Federation of Multi State Cooperative Credit Society Ltd</td><td>MSCS/CR/1255/2016</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >08 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   319
+                               </td><td>Gadavari Multi State Cooperative Credit Society ltd.,</td><td>MSCS/CR/637/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >08 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   320
+                               </td><td>Jakraya Multi State Coopertive Credit Society Ltd.,</td><td>MSCS/CR/478/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >08 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   321
+                               </td><td>Jaya Aishwaryam Housing Cooperative Society Ltd., </td><td>MSCS/CR/655/2012</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2019-20</td><td >08 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   322
+                               </td><td>Jaya Aishwaryam Housing Cooperative Society Ltd., </td><td>MSCS/CR/655/2012</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2018-19</td><td >08 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   323
+                               </td><td>Jaya Aishwaryam Housing Cooperative Society Ltd., </td><td>MSCS/CR/655/2012</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >08 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   324
+                               </td><td>Konkan Rail Cooperative Credit Society Ltd., </td><td>MSCS/CR/522/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >08 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   325
+                               </td><td>Latur Multi State Cooperative Credit Society Ltd.,</td><td>MSCS/CR/514/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >08 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   326
+                               </td><td>Lucknow Division Insurance Employees Cooperative Credit Society Ltd</td><td>MSCS/CR/1274/2017</td><td class="city" >UTTAR PRADESH                                     </td> <td class="date" >2020-21</td><td >08 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   327
+                               </td><td>Maharaja Multi State Cooperative Credit Society Ltd., </td><td>MSCS/CR/362/2010</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >08 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   328
+                               </td><td>Mahatma Phule Multi State Cooperative Credit Society Ltd.,</td><td>MSCS/CR/519/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >08 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   329
+                               </td><td>Nirman Multi State Cooperative Credit Society Ltd.,</td><td>MSCS/CR/481/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >08 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   330
+                               </td><td>Nishant Sahakari Gramin Pat Purwatha Sanstha Maryadit</td><td>MSCS/CR/433/2011</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >08 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   331
+                               </td><td>Pavanraje Loksamruddhi Multi State Cooperative Credit Society Ltd., </td><td>MSCS/CR/411/2011</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >08 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   332
+                               </td><td>Prabhat Multi State Cooperative Credit Soicety Ltd.,</td><td>MSCS/CR/456/2011</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >08 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   333
+                               </td><td>RAMCO Cements Employees Coop. Thrift and Credit Society Ltd</td><td>MSCS/CR/358/2010</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >08 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   334
+                               </td><td>Sakhi Multi State Cooperative Credit Society Ltd., </td><td>MSCS/CR/667/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >08 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   335
+                               </td><td>Shiv Sai Multistate Coopertive Credit Society Ltd. </td><td>MSCS/CR/802/2013</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >08 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   336
+                               </td><td>The Central Railway Employees Co-operative Credit Society Ltd.</td><td>-113</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >08 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   337
+                               </td><td>Ambika Multi State Health Service for the Weaker Section Cooperative Society Ltd</td><td>MSCS/CR/1300/2020</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2019-20</td><td >07 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   338
+                               </td><td>Bharati Agro Processing and Marketing Cooperative Ltd., </td><td>MSCS/CR/165/2003</td><td class="city" >KERALA                                            </td> <td class="date" >2020-21</td><td >07 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   339
+                               </td><td>Mahaganpati Multi state Cooperative Credit Society Ltd.,</td><td>MSCS/CR/624/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2019-20</td><td >07 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   340
+                               </td><td>Prerna Multi State Urban Coopertive Credit Society Ltd., </td><td>MSCS/CR/683/2012</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >07 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   341
+                               </td><td>Samruddhi Multi State Cooperative Credit Society Ltd.,</td><td>MSCS/CR/375/2010</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2018-19</td><td >07 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   342
+                               </td><td>Sree Balki Multi State Cooperative Housing Society Ltd</td><td>MSCS/CR/1278/2018</td><td class="city" >TAMIL NADU                                        </td> <td class="date" >2020-21</td><td >07 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   343
+                               </td><td>Stars Multipurpose Cooperative Society ltd., </td><td>MSCS/CR/940/2014</td><td class="city" >ANDHRA PRADESH                                    </td> <td class="date" >2020-21</td><td >07 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   344
+                               </td><td>The Nasik Merchants Cooperative Bank ltd.,</td><td>MSCS/CR/113/2000</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >07 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   345
+                               </td><td>The Sahyadri Multi-State Cooperative Credit Society Ltd., </td><td>MSCS/CR/204/2005</td><td class="city" >KARNATAKA                                         </td> <td class="date" >2020-21</td><td >07 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   346
+                               </td><td>All India Federation of Cooperative Spinning Mills Ltd, AIFCOSPIN</td><td>-33</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2018-19</td><td >06 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   347
+                               </td><td>All India Federation of Cooperative Spinning Mills Ltd, AIFCOSPIN</td><td>-33</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2019-20</td><td >06 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   348
+                               </td><td>All India Federation of Cooperative Spinning Mills Ltd, AIFCOSPIN</td><td>-33</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >06 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   349
+                               </td><td>All India Federation of Dr. Babasaheb Ambedkar Coop. Banks and Credit Societies Ltd., </td><td>&nbsp;</td><td class="city" >MAHARASHTRA                                       </td> <td class="date" >2020-21</td><td >06 Oct 2021</td>
+               </tr><tr >
+                   <td >
+                                   350
+                               </td><td>Arban India Credit Cooperative Society Ltd., </td><td>MSCS/CR/483/2012</td><td class="city" >RAJASTHAN                                         </td> <td class="date" >2020-21</td><td >06 Oct 2021</td>
+               </tr><tr >
+                   <td >
+
+                   </tr>
+                </table>
+            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <span id="Total">Total No of Annual Return filed for the    All Year  is </span>
+            &nbsp;<span id="Count">350</span>
+                        </td>
+                      
+                    </tr>
+                    </table>
+            
+            
+               </div>
+    </section>
+
+    <footer class="titles">
+        <div class="firstline">
+            <a href="#"> State Registers <span> | </span></a>
+            <a href="#"> Societies in the second schedule <span> | </span></a>
+            <a href="#"> Complaint & Hearing Notice <span> | </span></a>
+            <a href="#"> Hearing order Sheet <span> | </span></a>
+            <a href="#"> Circulars <span> | </span></a>
+            <a href="#"> Latest Certificates  <span> | </span></a>
+            <a href="#"> Amendment(Bye Laws) <span> | </span></a>
+            <a href="#"> Notice(New Registration) </a> 
+        </div>
+        <div class="secondline">
+            <a href="#"> Rejection Orders <span> | </span></a>
+            <a href="#"> Feedback <span> | </span></a>
+            <a href="#"> RTI <span> | </span></a>
+            <a href="#"> Other Links <span> | </span></a>
+            <a href="#"> Conatct Us <span> | </span></a>
+            <a href="#"> Grievance </a>
+        </div>
+
+        <p>Designed and Developed by computer students <a href="#">Disclaimer</a></p>
+
+
+    </footer>
+</body>
+</html>

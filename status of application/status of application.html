@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>status of application</title>
+    <link rel="stylesheet" href="status of application.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header" id="Home">
+
+        <div class="sub-box">
+            <div class="image">
+                <img src="../images/satyamev jayte logo.png" alt="">
+            </div>
+
+            <div class="text">
+                <h2>MULTI-STATE CO-OPERATIVE SOCIETIES</h2>
+                <h4>Ministry of Cooperation, Govt. of India</h4>
+            </div>
+
+            <div class="logo">
+                <img src="../images/MSCS_LOGO.png" alt="">
+            </div>
+        </div>
+
+    </header>
+
+    <div class="nav">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">Chart</a>
+                <ul>
+                    <li><a href="../state wise/state wise.html">State-Wise</a></li>
+                    <li><a href="../year wise/year wise.html">Year-Wise</a></li>
+                    <li><a href="../type wise/type wise.html">Type-Wise</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Reg.Societies</a>
+                <ul>
+                    <li><a href="../state wise result/state wise result.html">State-Wise List</a></li>
+                    <li><a href="../files/ALL_REG_MSCS.pdf">All Reg.Societies(pdf)</a></li>
+                    <li><a href="../files/OldListMSCS.pdf">Societies Registered Before 1986</a></li>
+                    <li><a href="../Calender Year-Wise List/Calender Year-Wise List.html">Calender Year-Wise List</a></li>
+                    <li><a href="../Financial Year-Wise List/Financial Year-Wise List.html">Financial Year-Wise List</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Forms</a>
+                <ul>
+                    <li><a href="../FORM - I/form1.html">Form I</a></li>
+                    <li><a href="../FORM - II/form 2.html">Form II</a></li>
+                    <li><a href="../FORM - III/form3.html">Form III</a></li>
+                    <li><a href="../FORM - IV/form4.html">Form IV</a></li>
+                    <li><a href="../FORM - V/form5.html">Form V</a></li>
+                </ul>
+            </li>
+            <li><a href="#">MSCS Act</a>
+                <ul>
+                    <li><a href="../files/GuidelineAct2002.pdf">MSCS Act,2002</a></li>
+                    <li><a href="../files/Rules2002.pdf">MSCS Rules,2002</a></li>
+                    <li><a href="../check list/checklist.html">CheckList</a></li>
+                    <li><a href="../Model Bye-laws/Model Bye-laws.html">Model Bye-Laws</a></li>
+                    <li><a href="../files/NatPolicy02.pdf">National Policy on Cooperative,2002</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Applications</a>
+                <ul>
+                    <li><a href="../received application/received application.html">Received Application</a></li>
+                    <li><a href="../status of application/status of application.html">Status of Application</a></li>
+                </ul>
+            </li>
+            <li><a href="#">MSCS-MIS</a>
+                <ul>
+                    <li><a href="../New User Registratioin form/new registration.html">New User Registration</a></li>
+                    <li><a href="../user login/userlogin.html">User Login</a></li>
+                    <li><a href="../login page/loginpage.html">Admin User</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Reports</a>
+                <ul>
+                    <li><a href="../Registered User/Registered User.html">Registered Users</a></li>
+                    <li><a href="../Filed Annual Returns online/Filed Annual Returns.html">Filed Annual Returns Online</a></li>
+                    <li><a href="../Annual Returns  Offline/Annual Returns  Offline.html">Annual Returns Ofline</a></li>
+                    <li><a href="../Reminder Message/Reminder message.html">Reminder Message</a></li>
+                    <li><a href="../All Reg Societies/index.html">All Reg Societies</a></li>
+
+                </ul>
+            </li>
+            <li><a href="#">Liquidation</a>
+                <ul>
+                    <li><a href="../societies under liquidation/societies under liquidation.html">Socialities Under Liquidation</a></li>
+                    <li><a href="../LiquidationInitiated.pdf">Liquidation Process Initiated</a></li>
+                </ul>
+            </li>
+            <li><a href="../banks/banks.html">Banks</a></li>
+        </ul>
+
+    </div>
+
+    <section class="section">
+
+        <h1>Status of Applications</h1>
+
+        <div id="site_content">
+        
+         <table>
+
+               
+             <tr>
+                 <td >
+             Select Month : 
+             <select name="ctl00$ContentPlaceHolder1$DdlMonth" onchange="javascript:setTimeout" id="DdlMonth" class="DDListCustom" >
+            <option selected="selected" value="0">-- Latest Month --</option>
+            <option value="12">December, 2022</option>
+            <option value="6">June, 2023</option>
+            <option value="5">May, 2023</option>
+            <option value="4">April, 2023</option>
+            <option value="3">March, 2023</option>
+            <option value="2">February, 2023</option>
+            <option value="1">January, 2023</option>
+        
+        </select>
+                 </td>
+                 <td >
+             Select Type :
+             <select name="ctl00$ContentPlaceHolder1$DdlPType" onchange="javascript:setTimeout" id="DdlPType" class="DDListCustom">
+        
+        </select>
+                 </td>
+             </tr> <tr>
+                    <td colspan="2" >
+               
+         
+            <div>
+            <table class="mGrid" cellspacing="0" rules="all" id="GVStatusList">
+                <tr>
+                    <th scope="col">S. No</th><th class="society" scope="col">Society Name</th><th scope="col">Proposal Type</th><th scope="col">State</th><th scope="col">District</th><th scope="col">Application Date</th><th scope="col">Notice</th><th scope="col">Order</th><th scope="col">Certificate</th>
+                </tr><tr>
+                    <td>
+                     1
+                </td><td>Om Agro Multi State Cooperative Society Ltd</td><td>New Registration</td><td>HARYANA                                           </td><td>PANIPAT</td><td>13 Jul 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl02_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl02$NDownload&#39;,&#39;&#39;)"></a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl02_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl02$ODownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl02_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl02$RegDownload&#39;,&#39;&#39;)">Download</a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     2
+                </td><td>Ente Naadu Multi State Agro Co-operative Society Ltd. </td><td>New Registration</td><td>KERALA                                            </td><td>ERNAKULAM</td><td>06 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl03_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl03$NDownload&#39;,&#39;&#39;)">Download</a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl03_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl03$ODownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl03_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl03$RegDownload&#39;,&#39;&#39;)">Download</a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     3
+                </td><td>Oriental Fire and General Insurance Employees Cooperative Thrift and Credit Society Ltd. </td><td>Deemed</td><td>BIHAR                                             </td><td>PATNA</td><td>07 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl04_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl04$NDownload&#39;,&#39;&#39;)"></a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl04_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl04$ODownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl04_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl04$RegDownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     4
+                </td><td>Shikharji Multi State Agro Processing and Marketing Cooperative Ltd. </td><td>New Registration</td><td>MAHARASHTRA                                       </td><td>BULDHANA</td><td>07 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl05_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl05$NDownload&#39;,&#39;&#39;)">Download</a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl05_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl05$ODownload&#39;,&#39;&#39;)">Download</a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl05_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl05$RegDownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     5
+                </td><td>Sonai Cooperative Dairy Ltd., </td><td>Amendments</td><td>MAHARASHTRA                                       </td><td>PUNE</td><td>07 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl06_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl06$NDownload&#39;,&#39;&#39;)"></a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl06_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl06$ODownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl06_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl06$RegDownload&#39;,&#39;&#39;)">Download</a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     6
+                </td><td>Air Corporations Employees Co-operative Credit Society Ltd.</td><td>Amendments</td><td>TAMIL NADU                                        </td><td>CHENNAI</td><td>08 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl07_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl07$NDownload&#39;,&#39;&#39;)"></a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl07_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl07$ODownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl07_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl07$RegDownload&#39;,&#39;&#39;)">Download</a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     7
+                </td><td>Citizens Cooperative Bank Ltd</td><td>Amendments</td><td>GUJARAT                                           </td><td>RAJKOT</td><td>08 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl08_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl08$NDownload&#39;,&#39;&#39;)"></a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl08_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl08$ODownload&#39;,&#39;&#39;)">Download</a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl08_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl08$RegDownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     8
+                </td><td>Maharashtra Urban Cooperative Credit Society, Mehkar </td><td>Conversion</td><td>MAHARASHTRA                                       </td><td>BULDHANA</td><td>08 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl09_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl09$NDownload&#39;,&#39;&#39;)"></a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl09_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl09$ODownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl09_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl09$RegDownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     9
+                </td><td>Mahesh Urban Credit Cooperative Society Ltd. </td><td>Conversion</td><td>MAHARASHTRA                                       </td><td>BULDHANA</td><td>08 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl10_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl10$NDownload&#39;,&#39;&#39;)"></a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl10_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl10$ODownload&#39;,&#39;&#39;)">Download</a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl10_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl10$RegDownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     10
+                </td><td>The Kalyan Janata Sahakari Bank Ltd</td><td>Amendments</td><td>MAHARASHTRA                                       </td><td>THANE</td><td>08 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl11_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl11$NDownload&#39;,&#39;&#39;)"></a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl11_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl11$ODownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl11_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl11$RegDownload&#39;,&#39;&#39;)">Download</a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     11
+                </td><td>A.P. Mahesh Cooperative  Urban Bank Ltd.</td><td>Amendments</td><td>ANDHRA PRADESH                                    </td><td>ANANTAPUR</td><td>09 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl12_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl12$NDownload&#39;,&#39;&#39;)"></a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl12_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl12$ODownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl12_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl12$RegDownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     12
+                </td><td>Southern Green Farming and Marketing Multi-State Cooperative Society Ltd., </td><td>Amendments</td><td>KERALA                                            </td><td>KOZHIKODE</td><td>09 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl13_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl13$NDownload&#39;,&#39;&#39;)"></a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl13_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl13$ODownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl13_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl13$RegDownload&#39;,&#39;&#39;)">Download</a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     13
+                </td><td>North East India Multi State Agro-Horti Marketing &amp; Processing Cooperative Society Ltd.,</td><td>Amendments</td><td>ARUNACHAL PRADESH                                 </td><td>DIBANG VALLEY                                     </td><td>10 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl14_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl14$NDownload&#39;,&#39;&#39;)"></a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl14_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl14$ODownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl14_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl14$RegDownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     14
+                </td><td>Keshav Cooperative Credit Society Limited </td><td>Conversion</td><td>GUJARAT                                           </td><td>JUNAGADH</td><td>13 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl15_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl15$NDownload&#39;,&#39;&#39;)"></a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl15_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl15$ODownload&#39;,&#39;&#39;)">Download</a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl15_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl15$RegDownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     15
+                </td><td>South India Multi State Agriculture Cooperative society Ltd.,</td><td>Amendments</td><td>TAMIL NADU                                        </td><td>VELLORE</td><td>13 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl16_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl16$NDownload&#39;,&#39;&#39;)"></a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl16_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl16$ODownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl16_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl16$RegDownload&#39;,&#39;&#39;)">Download</a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     16
+                </td><td>The Urban Care Multi State Agro Cooperative Society Ltd. </td><td>New Registration</td><td>KERALA                                            </td><td>KOZHIKODE</td><td>16 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl17_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl17$NDownload&#39;,&#39;&#39;)">Download</a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl17_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl17$ODownload&#39;,&#39;&#39;)">Download</a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl17_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl17$RegDownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     17
+                </td><td>Bank of Maharashtra Staff Credit Cooperative Society ltd.</td><td>Amendments</td><td>MAHARASHTRA                                       </td><td>NAGPUR</td><td>20 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl18_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl18$NDownload&#39;,&#39;&#39;)"></a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl18_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl18$ODownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl18_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl18$RegDownload&#39;,&#39;&#39;)">Download</a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     18
+                </td><td>Bharati Agro Processing and Marketing Cooperative Ltd., </td><td>Re-consideration for Amendment</td><td>KERALA                                            </td><td>ERNAKULAM</td><td>20 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl19_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl19$NDownload&#39;,&#39;&#39;)"></a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl19_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl19$ODownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl19_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl19$RegDownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     19
+                </td><td>Prabhavana Multi State Womens’ Jute and Allied Fibre Products Cooperative Society Ltd</td><td>Amendments</td><td>TELANGANA</td><td>HYDERABAD</td><td>20 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl20_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl20$NDownload&#39;,&#39;&#39;)"></a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl20_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl20$ODownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl20_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl20$RegDownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     20
+                </td><td>Viswadeepthi Multi State Agri Cooperative Society Ltd</td><td>Amendments</td><td>TAMIL NADU                                        </td><td>COIMBATORE</td><td>20 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl21_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl21$NDownload&#39;,&#39;&#39;)"></a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl21_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl21$ODownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl21_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl21$RegDownload&#39;,&#39;&#39;)">Download</a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     21
+                </td><td>South Central Railway Employee&#39;&#39;s Co-operative Credit Society Ltd.</td><td>Amendments</td><td>ANDHRA PRADESH                                    </td><td>HYDERABAD</td><td>21 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl22_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl22$NDownload&#39;,&#39;&#39;)"></a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl22_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl22$ODownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl22_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl22$RegDownload&#39;,&#39;&#39;)">Download</a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     22
+                </td><td>Krushisadhna Mahila Multi State Agro Cooperative society Ltd. </td><td>New Registration</td><td>MAHARASHTRA                                       </td><td>NASIK</td><td>22 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl23_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl23$NDownload&#39;,&#39;&#39;)">Download</a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl23_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl23$ODownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl23_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl23$RegDownload&#39;,&#39;&#39;)">Download</a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     23
+                </td><td>Bharathiyajkl Machuwara Samudaay Cooperative Ltd.</td><td>New Registration</td><td>JAMMU AND KASHMIR</td><td>BARAMULLA                                         </td><td>24 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl24_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl24$NDownload&#39;,&#39;&#39;)">Download</a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl24_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl24$ODownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl24_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl24$RegDownload&#39;,&#39;&#39;)">Download</a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     24
+                </td><td>Indian Oil Corporation Employees Co-operative Credit Society Ltd.</td><td>Amendments</td><td>MAHARASHTRA                                       </td><td>MUMBAI</td><td>27 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl25_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl25$NDownload&#39;,&#39;&#39;)"></a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl25_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl25$ODownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl25_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl25$RegDownload&#39;,&#39;&#39;)">Download</a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     25
+                </td><td>Punjab National Bank Employees Coop. Thrift and Credit Society, </td><td>Amendments</td><td>TAMIL NADU                                        </td><td>CHENNAI</td><td>27 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl26_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl26$NDownload&#39;,&#39;&#39;)"></a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl26_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl26$ODownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl26_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl26$RegDownload&#39;,&#39;&#39;)">Download</a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     26
+                </td><td>Shree Krishna Saraswati Multi State Cooperative Industries Ltd. </td><td>New Registration</td><td>MAHARASHTRA                                       </td><td>KOLHAPUR</td><td>27 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl27_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl27$NDownload&#39;,&#39;&#39;)">Download</a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl27_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl27$ODownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl27_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl27$RegDownload&#39;,&#39;&#39;)">Download</a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     27
+                </td><td>B.T. Borhade Multi State Credit Cooperative Society Ltd.,</td><td>Re-consideration for Amendment</td><td>MAHARASHTRA                                       </td><td>AHMEDNAGAR</td><td>28 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl28_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl28$NDownload&#39;,&#39;&#39;)"></a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl28_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl28$ODownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl28_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl28$RegDownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     28
+                </td><td>Jyotipath Multipurpose Cooperative Society Ltd.,</td><td>Amendments</td><td>UTTAR PRADESH                                     </td><td>MORADABAD</td><td>28 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl29_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl29$NDownload&#39;,&#39;&#39;)"></a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl29_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl29$ODownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl29_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl29$RegDownload&#39;,&#39;&#39;)">Download</a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     29
+                </td><td>The Hindu Office and National Press Employee&quot;s Cooperative Thrift &amp; Credit Society Ltd,</td><td>Amendments</td><td>TAMIL NADU                                        </td><td>CHENNAI</td><td>28 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl30_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl30$NDownload&#39;,&#39;&#39;)"></a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl30_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl30$ODownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl30_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl30$RegDownload&#39;,&#39;&#39;)">Download</a>
+                         
+                        </td>
+                </tr><tr>
+                    <td>
+                     30
+                </td><td>The Lakshmi Vilas Bank Staff Co-operative Thrift and Credit Society Limited</td><td>Amendments</td><td>TAMIL NADU                                        </td><td>CHENNAI</td><td>28 Sep 2021</td><td>
+                         <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl31_NDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl31$NDownload&#39;,&#39;&#39;)"></a>
+                          
+                        </td><td>
+                            <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl31_ODownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl31$ODownload&#39;,&#39;&#39;)"></a>
+                         
+                        </td><td>
+                             <a id="ctl00_ContentPlaceHolder1_GVStatusList_ctl31_RegDownload" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList$ctl31$RegDownload&#39;,&#39;&#39;)">Download</a>
+                         
+                        </td>
+                </tr>
+                <tr>
+                    <td colspan="9"><table>
+                        <tr>
+                            <td><span>1</span></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList&#39;,&#39;Page$2&#39;)">2</a></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList&#39;,&#39;Page$3&#39;)">3</a></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList&#39;,&#39;Page$4&#39;)">4</a></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList&#39;,&#39;Page$5&#39;)">5</a></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList&#39;,&#39;Page$6&#39;)">6</a></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList&#39;,&#39;Page$7&#39;)">7</a></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList&#39;,&#39;Page$8&#39;)">8</a></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList&#39;,&#39;Page$9&#39;)">9</a></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList&#39;,&#39;Page$10&#39;)">10</a></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$GVStatusList&#39;,&#39;Page$11&#39;)">...</a></td>
+                        </tr>
+                    </table></td>
+                </tr>
+            </table>
+        </div>
+        
+        </td>
+                    </tr>
+                 <tr>
+                    <td colspan="2">
+                        <span id="Total">Total Received Proposals : 30</span>
+        &nbsp;<span id="Count"></span>
+                    </td>
+                   
+                </tr>
+        
+            </table>
+        
+        
+           </div>
+        
+
+    </section>
+
+    
+    <footer class="titles">
+        <div class="firstline">
+            <a href="#"> State Registers <span> | </span></a>
+            <a href="#"> Societies in the second schedule <span> | </span></a>
+            <a href="#"> Complaint & Hearing Notice <span> | </span></a>
+            <a href="#"> Hearing order Sheet <span> | </span></a>
+            <a href="#"> Circulars <span> | </span></a>
+            <a href="#"> Latest Certificates  <span> | </span></a>
+            <a href="#"> Amendment(Bye Laws) <span> | </span></a>
+            <a href="#"> Notice(New Registration) </a> 
+        </div>
+        <div class="secondline">
+            <a href="#"> Rejection Orders <span> | </span></a>
+            <a href="#"> Feedback <span> | </span></a>
+            <a href="#"> RTI <span> | </span></a>
+            <a href="#"> Other Links <span> | </span></a>
+            <a href="#"> Conatct Us <span> | </span></a>
+            <a href="#"> Grievance </a>
+        </div>
+
+        <p>Designed and Developed by computer students <a href="#">Disclaimer</a></p>
+
+
+    </footer>
+</body>
+</html>

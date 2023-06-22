@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: ' Poppins ', sans-serif;
+}
+
+:root {
+    --white-color: #fff;
+    --main-color: #010101;
+    --header-color: #2A5A20;
+    --menu-color: #80D1B5;
+}
+
+.bg {
+    background: url('../images/bg.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.section {
+    margin: 5rem 32.2rem;
+    background: var(--white-color);
+}
+
+#Form1 {
+    border: 1px solid var(--header-color);
+    box-shadow: 0 .8rem 1rem var(--header-color);
+}
+
+.login h1{
+    border-bottom: 1px solid green;
+    background: #EAECE2;
+
+}
+
+#Image3 {
+    text-align: center;
+    width:320px;
+    margin: 0rem 2.5rem;
+    border-width:0px;
+}
+
+.details {
+    padding: 1rem;
+}
+
+.details #Image1 {
+    width:35px;
+    border-width:0px;    
+}
+
+.details #Image2 {
+    width:35px;
+    border-width:0px;
+}
+
+.details #Image5 {
+    border-style:None;
+    width:60px;
+    border-width:0px;
+}
+
+.txt {
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+
+.CAPTCHA_text {
+    padding:5px 2px 2px 22px; 
+    text-align:center;
+}
+
+input{
+    padding: 2px;
+    box-shadow: 0 .1rem 1rem var(--header-color);
+}
+
+#imgCaptcha {
+    height:40px;
+    width:200px;
+    border-width:0px;
+    margin-bottom: .5rem;
+}
+
+#txtCaptcha {
+    width:200px;
+}
+
+#ErrorLabel {
+    color:Maroon;
+    font-family:Verdana;
+    font-size:10pt;
+    font-weight:normal;
+}
+
+#ErrorLbl2 {
+    color:Maroon;
+    font-family:Verdana;
+    font-size:10pt;
+    font-weight:normal;
+}
+
+.button {
+    width: 108px;
+    height: 30px; 
+    float: right;
+    border-radius: 5rem;
+    background-color: var(--menu-color);
+    border: 2px solid var(--header-color);
+}
+
+table {
+    width: 99%; 
+    border: none;
+}
+
+#HyperLink1 {
+    color:#006600;
+    font-size:12pt;
+    font-weight:bold;
+}

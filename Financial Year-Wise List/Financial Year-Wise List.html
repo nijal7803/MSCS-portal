@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Year-Wise List</title>
+    <link rel="stylesheet" href="Financial Year-Wise List.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header" id="Home">
+
+        <div class="sub-box">
+            <div class="image">
+                <img src="../images/satyamev jayte logo.png" alt="">
+            </div>
+
+            <div class="text">
+                <h2>MULTI-STATE CO-OPERATIVE SOCIETIES</h2>
+                <h4>Ministry of Cooperation, Govt. of India</h4>
+            </div>
+
+            <div class="logo">
+                <img src="../images/MSCS_LOGO.png" alt="">
+            </div>
+        </div>
+
+    </header>
+
+    <div class="nav">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">Chart</a>
+                <ul>
+                    <li><a href="../state wise/state wise.html">State-Wise</a></li>
+                    <li><a href="../year wise/year wise.html">Year-Wise</a></li>
+                    <li><a href="../type wise/type wise.html">Type-Wise</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Reg.Societies</a>
+                <ul>
+                    <li><a href="../state wise result/state wise result.html">State-Wise List</a></li>
+                    <li><a href="../files/ALL_REG_MSCS.pdf">All Reg.Societies(pdf)</a></li>
+                    <li><a href="../files/OldListMSCS.pdf">Societies Registered Before 1986</a></li>
+                    <li><a href="../Calender Year-Wise List/Calender Year-Wise List.html">Calender Year-Wise List</a></li>
+                    <li><a href="../Financial Year-Wise List/Financial Year-Wise List.html">Financial Year-Wise List</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Forms</a>
+                <ul>
+                    <li><a href="../FORM - I/form1.html">Form I</a></li>
+                    <li><a href="../FORM - II/form 2.html">Form II</a></li>
+                    <li><a href="../FORM - III/form3.html">Form III</a></li>
+                    <li><a href="../FORM - IV/form4.html">Form IV</a></li>
+                    <li><a href="../FORM - V/form5.html">Form V</a></li>
+                </ul>
+            </li>
+            <li><a href="#">MSCS Act</a>
+                <ul>
+                    <li><a href="../files/GuidelineAct2002.pdf">MSCS Act,2002</a></li>
+                    <li><a href="../files/Rules2002.pdf">MSCS Rules,2002</a></li>
+                    <li><a href="../check list/checklist.html">CheckList</a></li>
+                    <li><a href="../Model Bye-laws/Model Bye-laws.html">Model Bye-Laws</a></li>
+                    <li><a href="../files/NatPolicy02.pdf">National Policy on Cooperative,2002</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Applications</a>
+                <ul>
+                    <li><a href="../received application/received application.html">Received Application</a></li>
+                    <li><a href="../status of application/status of application.html">Status of Application</a></li>
+                </ul>
+            </li>
+            <li><a href="#">MSCS-MIS</a>
+                <ul>
+                    <li><a href="../New User Registratioin form/new registration.html">New User Registration</a></li>
+                    <li><a href="../user login/userlogin.html">User Login</a></li>
+                    <li><a href="../login page/loginpage.html">Admin User</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Reports</a>
+                <ul>
+                    <li><a href="../Registered User/Registered User.html">Registered Users</a></li>
+                    <li><a href="../Filed Annual Returns online/Filed Annual Returns.html">Filed Annual Returns Online</a></li>
+                    <li><a href="../Annual Returns  Offline/Annual Returns  Offline.html">Annual Returns Ofline</a></li>
+                    <li><a href="../Reminder Message/Reminder message.html">Reminder Message</a></li>
+                    <li><a href="../All Reg Societies/index.html">All Reg Societies</a></li>
+
+                </ul>
+            </li>
+            <li><a href="#">Liquidation</a>
+                <ul>
+                    <li><a href="../societies under liquidation/societies under liquidation.html">Socialities Under Liquidation</a></li>
+                    <li><a href="../LiquidationInitiated.pdf">Liquidation Process Initiated</a></li>
+                </ul>
+            </li>
+            <li><a href="../banks/banks.html">Banks</a></li>
+        </ul>
+
+    </div>
+    
+    <section class="section">
+
+        <div class="PageHead" >
+            <h1>Financial Year wise registered societies from 1986 onwards under MSCS, 2002</h1>
+            </div>
+
+    <div id="site_content">
+       
+       
+            <br />
+          
+           <div class="PageContain" >
+        <table>
+            <tr>
+                <td style="text-align:right;">List of societies for
+                    <span id="L.
+                    Msg" style="font-weight: 700"> All States </span> :&nbsp; 
+                   
+                </td>
+               
+                <td style="float:left;">
+                    <select name="DdlState" onchange="javascript:setTimeout" id="DdlState" class="DDListCSS">
+        <option selected="selected" value="0"> All States </option>
+        <option value="35">ANDAMAN AND NICOBAR</option>
+        <option value="28">ANDHRA PRADESH                                    </option>
+        <option value="12">ARUNACHAL PRADESH                                 </option>
+        <option value="18">ASSAM                                             </option>
+        <option value="10">BIHAR                                             </option>
+        <option value="4">CHANDIGARH</option>
+        <option value="22">CHHATTISGARH                                      </option>
+        <option value="26">DADRA AND NAGAR HAVELI</option>
+        <option value="25">DAMAN AND DIU</option>
+        <option value="30">GOA</option>
+        <option value="24">GUJARAT                                           </option>
+        <option value="6">HARYANA                                           </option>
+        <option value="2">HIMACHAL PRADESH                                  </option>
+        <option value="1">JAMMU AND KASHMIR</option>
+        <option value="20">JHARKHAND                                         </option>
+        <option value="29">KARNATAKA                                         </option>
+        <option value="32">KERALA                                            </option>
+        <option value="31">LAKSHADWEEP</option>
+        <option value="23">MADHYA PRADESH                                    </option>
+        <option value="27">MAHARASHTRA                                       </option>
+        <option value="14">MANIPUR                                           </option>
+        <option value="17">MEGHALAYA                                         </option>
+        <option value="15">MIZORAM                                           </option>
+        <option value="13">NAGALAND                                          </option>
+        <option value="7">NEW DELHI</option>
+        <option value="21">ODISHA                                           </option>
+        <option value="34">PONDICHERRY</option>
+        <option value="3">PUNJAB                                            </option>
+        <option value="8">RAJASTHAN                                         </option>
+        <option value="11">SIKKIM                                            </option>
+        <option value="33">TAMIL NADU                                        </option>
+        <option value="36">TELANGANA</option>
+        <option value="16">TRIPURA</option>
+        <option value="9">UTTAR PRADESH                                     </option>
+        <option value="5">UTTARAKHAND                           </option>
+        <option value="19">WEST BENGAL                                       </option>
+    
+    </select></td>
+               
+            </tr>
+            <tr>
+               
+                <td colspan="2">
+                    
+                </td>
+               
+            </tr>
+            <tr>
+                <td style="text-align:center;" colspan="2">
+                    <center>
+                    <div>
+        <table class="mGrid" cellspacing="0"  rules="all" id="GridView1">
+            <tr>
+                <th scope="col">S.No</th><th scope="col">Financial year</th><th scope="col">No. of Societies</th>
+            </tr><tr >
+                <td>
+                                    1
+                                </td><td>&nbsp;</td><td >
+                                    <span id="Number">0</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    2
+                                </td><td>1899-1900</td><td >
+                                    <span id="Number">1</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    3
+                                </td><td>1986-1987</td><td >
+                                    <span id="Number">1</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    4
+                                </td><td>1987-1988</td><td >
+                                    <span id="Number">2</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    5
+                                </td><td>1988-1989</td><td >
+                                    <span id="Number">4</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    6
+                                </td><td>1989-1990</td><td >
+                                    <span id="Number">2</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    7
+                                </td><td>1990-1991</td><td >
+                                    <span id="Number">2</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    8
+                                </td><td>1991-1992</td><td >
+                                    <span id="Number">11</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    9
+                                </td><td>1992-1993</td><td >
+                                    <span id="Number">8</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    10
+                                </td><td>1993-1994</td><td >
+                                    <span id="Number">13</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    11
+                                </td><td>1994-1995</td><td >
+                                    <span id="Number">9</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    12
+                                </td><td>1995-1996</td><td >
+                                    <span id="Number">8</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    13
+                                </td><td>1996-1997</td><td >
+                                    <span id="Number">5</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    14
+                                </td><td>1997-1998</td><td >
+                                    <span id="Number">10</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    15
+                                </td><td>1998-1999</td><td >
+                                    <span id="Number">10</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    16
+                                </td><td>1999-2000</td><td >
+                                    <span id="Number">18</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    17
+                                </td><td>2000-2001</td><td >
+                                    <span id="Number">23</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    18
+                                </td><td>2001-2002</td><td >
+                                    <span id="Number">13</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    19
+                                </td><td>2002-2003</td><td >
+                                    <span id="Number">13</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    20
+                                </td><td>2003-2004</td><td >
+                                    <span id="Number">26</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    21
+                                </td><td>2004-2005</td><td >
+                                    <span id="Number">36</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    22
+                                </td><td>2005-2006</td><td >
+                                    <span id="Number">22</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    23
+                                </td><td>2006-2007</td><td >
+                                    <span id="Number">14</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    24
+                                </td><td>2007-2008</td><td >
+                                    <span id="Number">19</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    25
+                                </td><td>2008-2009</td><td >
+                                    <span id="Number">34</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    26
+                                </td><td>2009-2010</td><td >
+                                    <span id="Number">39</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    27
+                                </td><td>2010-2011</td><td >
+                                    <span id="Number">59</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    28
+                                </td><td>2011-2012</td><td >
+                                    <span id="Number">106</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    29
+                                </td><td>2012-2013</td><td >
+                                    <span id="Number">291</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    30
+                                </td><td>2013-2014</td><td >
+                                    <span id="Number">165</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    31
+                                </td><td>2014-2015</td><td >
+                                    <span id="Number">250</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    32
+                                </td><td>2015-2016</td><td >
+                                    <span id="Number">45</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    33
+                                </td><td>2016-2017</td><td >
+                                    <span id="Number">15</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    34
+                                </td><td>2017-2018</td><td >
+                                    <span id="Number">10</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    35
+                                </td><td>2018-2019</td><td >
+                                    <span id="Number">2</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    36
+                                </td><td>2019-2020</td><td >
+                                    <span id="Number">10</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    37
+                                </td><td>2020-2021</td><td >
+                                    <span id="Number">13</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    38
+                                </td><td>2021-2022</td><td >
+                                    <span id="Number">18</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    39
+                                </td><td>2022-2023</td><td >
+                                    <span id="Number">73</span>
+                                </td>
+            </tr><tr >
+                <td>
+                                    40
+                                </td><td>2023-2024</td><td >
+                                    <span id="Number">10</span>
+                                </td>
+            </tr><tr>
+                <td>&nbsp;</td><td>&nbsp;</td><td >
+                         <span id="Count">1410</span>
+                     </td>
+            </tr>
+        </table>
+    </div>
+                    </center>
+                    
+                </td>
+               
+            </tr>
+            <tr>
+                <td class="note" colspan="2">** Note : 167 No. of registered societies  under MSCS, 2002 before 1986.</td>
+               
+            </tr>
+          
+        </table>
+    
+      <br />
+               <br />
+    </div>
+    
+       </div>
+
+    </section>
+
+    <footer class="titles">
+        <div class="firstline">
+            <a href="#"> State Registers <span> | </span></a>
+            <a href="#"> Societies in the second schedule <span> | </span></a>
+            <a href="#"> Complaint & Hearing Notice <span> | </span></a>
+            <a href="#"> Hearing order Sheet <span> | </span></a>
+            <a href="#"> Circulars <span> | </span></a>
+            <a href="#"> Latest Certificates  <span> | </span></a>
+            <a href="#"> Amendment(Bye Laws) <span> | </span></a>
+            <a href="#"> Notice(New Registration) </a> 
+        </div>
+        <div class="secondline">
+            <a href="#"> Rejection Orders <span> | </span></a>
+            <a href="#"> Feedback <span> | </span></a>
+            <a href="#"> RTI <span> | </span></a>
+            <a href="#"> Other Links <span> | </span></a>
+            <a href="#"> Conatct Us <span> | </span></a>
+            <a href="#"> Grievance </a>
+        </div>
+
+        <p>Designed and Developed by computer students <a href="#">Disclaimer</a></p>
+
+
+    </footer>
+</body>
+</html>
